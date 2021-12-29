@@ -1,0 +1,4508 @@
+fileFormatVersion: 2
+guid: 2f404dc42b930ff4b9ecf57352e48b6e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5963371820641177270
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_0
+  - first:
+      213: -4947414094830942922
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_1
+  - first:
+      213: 7513897375573517122
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_2
+  - first:
+      213: 8735017991979112712
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_3
+  - first:
+      213: -8479254438699815445
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_4
+  - first:
+      213: 3096051147233190061
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_5
+  - first:
+      213: 2434869573399709059
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_6
+  - first:
+      213: 2450596138601728083
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_7
+  - first:
+      213: 1386073384979864766
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_8
+  - first:
+      213: -4003083701486759985
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_9
+  - first:
+      213: 8671280730211576708
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_10
+  - first:
+      213: -7631154553658944929
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_11
+  - first:
+      213: -1194979425071041202
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_12
+  - first:
+      213: -2113486064612821844
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_13
+  - first:
+      213: -1954509464064527495
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_14
+  - first:
+      213: 801560820520628686
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_15
+  - first:
+      213: -7562458493295093262
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_16
+  - first:
+      213: 8993331623589287605
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_17
+  - first:
+      213: -7396939581545425813
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_18
+  - first:
+      213: -4708658253603430717
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_19
+  - first:
+      213: -4852276152473091177
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_20
+  - first:
+      213: 4641147499708252057
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_21
+  - first:
+      213: 6781896266974581810
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_22
+  - first:
+      213: 6758695648824054503
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_23
+  - first:
+      213: -892918918450826351
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_24
+  - first:
+      213: 3005850805533333990
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_25
+  - first:
+      213: 5765305089587342986
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_26
+  - first:
+      213: 5636013333413342999
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_27
+  - first:
+      213: 2556082602738325206
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_28
+  - first:
+      213: 7098417791733421792
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_29
+  - first:
+      213: 4801497498489598990
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_30
+  - first:
+      213: -7138000904934531121
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_31
+  - first:
+      213: -8341560337976025196
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_32
+  - first:
+      213: -4473293719634036621
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_33
+  - first:
+      213: 8081421618672775154
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_34
+  - first:
+      213: 5578714135814403717
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_35
+  - first:
+      213: -4006148404615525692
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_36
+  - first:
+      213: 919731383334080816
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_37
+  - first:
+      213: 2277479843642190350
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_38
+  - first:
+      213: -7263826737499381397
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_39
+  - first:
+      213: 4741305088480043587
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_40
+  - first:
+      213: -1766423747928643190
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_41
+  - first:
+      213: -5067419992825369263
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_42
+  - first:
+      213: -2205619156100522177
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_43
+  - first:
+      213: -7926547125673405063
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_44
+  - first:
+      213: -5983583750279070268
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_45
+  - first:
+      213: -5558324755017582662
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_46
+  - first:
+      213: 4268705465391374103
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_47
+  - first:
+      213: -1516422866515306114
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_48
+  - first:
+      213: 8604302220622221018
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_49
+  - first:
+      213: 1062205155813277855
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_50
+  - first:
+      213: 1984767747647235802
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_51
+  - first:
+      213: -1897726100684304361
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_52
+  - first:
+      213: -4501749988398591477
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_53
+  - first:
+      213: 3121286544866029268
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_54
+  - first:
+      213: 7182890705506368907
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_55
+  - first:
+      213: -3741673024676352084
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_56
+  - first:
+      213: 7618929651073624722
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_57
+  - first:
+      213: 2943082394408679399
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_58
+  - first:
+      213: -2438295009023273749
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_59
+  - first:
+      213: -983740724394969316
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_60
+  - first:
+      213: 22051038129569558
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_61
+  - first:
+      213: 1708872527903626478
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_62
+  - first:
+      213: 8502318749139612748
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_63
+  - first:
+      213: -7514957533520188814
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_64
+  - first:
+      213: 5848718446249031392
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_65
+  - first:
+      213: 424619605148675565
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_66
+  - first:
+      213: -8802421052302948189
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_67
+  - first:
+      213: 1857079066319785302
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_68
+  - first:
+      213: 3697106540521815929
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_69
+  - first:
+      213: -8400842634330321841
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_70
+  - first:
+      213: 8320556702587361
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_71
+  - first:
+      213: 252641888994134460
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_72
+  - first:
+      213: 3563294834370839049
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_73
+  - first:
+      213: 5261144363981034638
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_74
+  - first:
+      213: -5918246806698282123
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_75
+  - first:
+      213: 8914841078754359349
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_76
+  - first:
+      213: 3961345667262865686
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_77
+  - first:
+      213: -6065938013799415812
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_78
+  - first:
+      213: -1398576968906373779
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_79
+  - first:
+      213: -1612196921635036742
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_80
+  - first:
+      213: -3593877367288898535
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_81
+  - first:
+      213: 7965100075681676995
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_82
+  - first:
+      213: 2814249655698239456
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_83
+  - first:
+      213: -3204200910502758532
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_84
+  - first:
+      213: 3622313879443732350
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_85
+  - first:
+      213: 7547081592338901562
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_86
+  - first:
+      213: -6620486850378288587
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_87
+  - first:
+      213: 3773425804467891470
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_88
+  - first:
+      213: 5860087396784415437
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_89
+  - first:
+      213: 4627910560311158769
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_90
+  - first:
+      213: -7386184906980269752
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_91
+  - first:
+      213: 4228602864062580500
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_92
+  - first:
+      213: 6579702247230058494
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_93
+  - first:
+      213: 1548552528296898704
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_94
+  - first:
+      213: -3148048710516493058
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_95
+  - first:
+      213: 1792622403543996078
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_96
+  - first:
+      213: 958621506961462512
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_97
+  - first:
+      213: 7229904159632633059
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_98
+  - first:
+      213: -3942562293344827624
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_99
+  - first:
+      213: -1452701000421778429
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_100
+  - first:
+      213: 691594184112408852
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_101
+  - first:
+      213: -3011104957737316767
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_102
+  - first:
+      213: -5895022161651528557
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_103
+  - first:
+      213: -8270574386439501362
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_104
+  - first:
+      213: 1497316650926654374
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_105
+  - first:
+      213: -7928529565295265163
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_106
+  - first:
+      213: -550916524432669215
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_107
+  - first:
+      213: 4185450641478759033
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_108
+  - first:
+      213: -6218597459991249626
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_109
+  - first:
+      213: 7407664880835653993
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_110
+  - first:
+      213: -1835977377954894902
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_111
+  - first:
+      213: 1997849294842909926
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_112
+  - first:
+      213: 8937054678137987735
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_113
+  - first:
+      213: 7053132166640347848
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_114
+  - first:
+      213: -5035460924724208171
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_115
+  - first:
+      213: 2602180914548761261
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_116
+  - first:
+      213: 2639722565490733857
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_117
+  - first:
+      213: 7159195047908124396
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_118
+  - first:
+      213: -4587274504850639510
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_119
+  - first:
+      213: 6946150840934989531
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_120
+  - first:
+      213: -8190608412127776754
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_121
+  - first:
+      213: 8855172096268679230
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_122
+  - first:
+      213: -1976421952480430444
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_123
+  - first:
+      213: -7607638448045824569
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_124
+  - first:
+      213: 5635875794945842365
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_125
+  - first:
+      213: -4666667468556512164
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_126
+  - first:
+      213: -2916048021016376318
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_127
+  - first:
+      213: -504813617204556388
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_128
+  - first:
+      213: -76665399236465799
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_129
+  - first:
+      213: 1438387566657502700
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_130
+  - first:
+      213: 9149422668781230727
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_131
+  - first:
+      213: 6643154624436571628
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_132
+  - first:
+      213: 5285046886302710025
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_133
+  - first:
+      213: 4385415307137795589
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_134
+  - first:
+      213: -7891888270338358112
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_135
+  - first:
+      213: 5734835923044069513
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_136
+  - first:
+      213: -2419357133605144959
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_137
+  - first:
+      213: 5494179839426337467
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_138
+  - first:
+      213: -2180182129874518744
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_139
+  - first:
+      213: -2647175839723156426
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_140
+  - first:
+      213: -3446729686866636267
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_141
+  - first:
+      213: -1675027871163106313
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_142
+  - first:
+      213: -6266502653920677139
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_143
+  - first:
+      213: 8196533765378775529
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_144
+  - first:
+      213: -1828042003436664801
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_145
+  - first:
+      213: -5729450327340743922
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_146
+  - first:
+      213: -2416293205666995436
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_147
+  - first:
+      213: 5518888027423266769
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_148
+  - first:
+      213: 6574996692100608118
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_149
+  - first:
+      213: 3898744211211361762
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_150
+  - first:
+      213: 260206351104974672
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_151
+  - first:
+      213: 214596489633946915
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_152
+  - first:
+      213: -9080944285993601188
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_153
+  - first:
+      213: 610621247839912381
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_154
+  - first:
+      213: -795991288717298072
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_155
+  - first:
+      213: 2476240566527484767
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_156
+  - first:
+      213: -6360306852548229128
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_157
+  - first:
+      213: 8564875481510617479
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_158
+  - first:
+      213: -952108724719694503
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_159
+  - first:
+      213: -8652608532405613988
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_168
+  - first:
+      213: -5166992244644678151
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_169
+  - first:
+      213: 7390721437847766794
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_170
+  - first:
+      213: 4393724074881332634
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_171
+  - first:
+      213: -3388196978755559178
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_172
+  - first:
+      213: -3628809114875548222
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_173
+  - first:
+      213: 1032012603002930391
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_174
+  - first:
+      213: 2227012378647665824
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_175
+  - first:
+      213: -284971628832986464
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_176
+  - first:
+      213: -7633051435345588504
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_177
+  - first:
+      213: 7402424781418236877
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_178
+  - first:
+      213: 9086538793930871740
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_179
+  - first:
+      213: -3400884608927588854
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_180
+  - first:
+      213: 7720950131617076758
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_181
+  - first:
+      213: 732730899679301620
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_182
+  - first:
+      213: 6495273963263313086
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_183
+  - first:
+      213: -4861523163388681206
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_184
+  - first:
+      213: -142440476340029867
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_185
+  - first:
+      213: -8554015697443613911
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_186
+  - first:
+      213: 6098204226168572383
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_187
+  - first:
+      213: 5840553431095341906
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_188
+  - first:
+      213: -4025475772118467532
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_189
+  - first:
+      213: -5211889281071541404
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_197
+  - first:
+      213: -1857639866698121488
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_198
+  - first:
+      213: 8865199635388070477
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_199
+  - first:
+      213: -6110365065675691139
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_200
+  - first:
+      213: 2698153309618260320
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_201
+  - first:
+      213: -1975361150062523825
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_202
+  - first:
+      213: -2217473114877220400
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_203
+  - first:
+      213: 8858456007852203876
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_204
+  - first:
+      213: 4928758765576151522
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_205
+  - first:
+      213: 1434460537402779696
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_206
+  - first:
+      213: -3420818364683054226
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_207
+  - first:
+      213: 1968438542449585241
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_208
+  - first:
+      213: 5749144745560577571
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_209
+  - first:
+      213: -4742096230210065332
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_210
+  - first:
+      213: 575474501687872402
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_217
+  - first:
+      213: -5804962762925924955
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_218
+  - first:
+      213: -3511096183736099108
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_219
+  - first:
+      213: -7339969661191207744
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_220
+  - first:
+      213: 410736685664734668
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_221
+  - first:
+      213: 8027991970875664649
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_222
+  - first:
+      213: -2862815013070266388
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_223
+  - first:
+      213: -9070481200774634158
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_224
+  - first:
+      213: -9101097503688142070
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_225
+  - first:
+      213: 2030199670079136443
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_226
+  - first:
+      213: -228592804732361535
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_227
+  - first:
+      213: 9000274350973997655
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_228
+  - first:
+      213: 526003260898352516
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_229
+  - first:
+      213: -9130813530145811084
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_230
+  - first:
+      213: 8133963442052459133
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_231
+  - first:
+      213: 2503468983452674506
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_232
+  - first:
+      213: -7366754702509161843
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_233
+  - first:
+      213: -668348460762097462
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_234
+  - first:
+      213: -5958446933440694821
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_235
+  - first:
+      213: 2640208593608220598
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_236
+  - first:
+      213: 5538462098099091552
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_237
+  - first:
+      213: -5442807623007921300
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+      Projectiles_238
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 483
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be44e8531722c250800000000000000
+      internalID: 5963371820641177270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 483
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63547d0e711475bb0800000000000000
+      internalID: -4947414094830942922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_2
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 483
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243accd4ad9b64860800000000000000
+      internalID: 7513897375573517122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_3
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 483
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8099f866594093970800000000000000
+      internalID: 8735017991979112712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_4
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 482
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beda4255303a35a80800000000000000
+      internalID: -8479254438699815445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_5
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 482
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da066456d1267fa20800000000000000
+      internalID: 3096051147233190061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_6
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 482
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38585ecf9f46ac120800000000000000
+      internalID: 2434869573399709059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_7
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 482
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358cc494434420220800000000000000
+      internalID: 2450596138601728083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_8
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 482
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc195066625c3310800000000000000
+      internalID: 1386073384979864766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_9
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 482
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcfc9be25903278c0800000000000000
+      internalID: -4003083701486759985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_10
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 482
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b63f7b1e3965870800000000000000
+      internalID: 8671280730211576708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_11
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 482
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f52dd037d51b81690800000000000000
+      internalID: -7631154553658944929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_12
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 482
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e457dbe4b849a6fe0800000000000000
+      internalID: -1194979425071041202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_13
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 482
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4b3093f936ba2e0800000000000000
+      internalID: -2113486064612821844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_14
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 482
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9737b447fff20e4e0800000000000000
+      internalID: -1954509464064527495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_15
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 482
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec1b005c157bf1b00800000000000000
+      internalID: 801560820520628686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_16
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 451
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f992866110cc0790800000000000000
+      internalID: -7562458493295093262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_17
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 451
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b69353867bbecc70800000000000000
+      internalID: 8993331623589287605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_18
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 451
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6455f824aac85990800000000000000
+      internalID: -7396939581545425813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_19
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 451
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce9141144c77aeb0800000000000000
+      internalID: -4708658253603430717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_20
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 450
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7930ebb3c8049acb0800000000000000
+      internalID: -4852276152473091177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_21
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 450
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f7d46af0ba86040800000000000000
+      internalID: 4641147499708252057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_22
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 450
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 234519809b22e1e50800000000000000
+      internalID: 6781896266974581810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_23
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 450
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2d22d22e5bbcd50800000000000000
+      internalID: 6758695648824054503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_24
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 450
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193338c79f6bb93f0800000000000000
+      internalID: -892918918450826351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_25
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 450
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e9d2a7c16de6b920800000000000000
+      internalID: 3005850805533333990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_26
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 450
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8eea9ede6a720050800000000000000
+      internalID: 5765305089587342986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_27
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 450
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71fa77f0444273e40800000000000000
+      internalID: 5636013333413342999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_28
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 450
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d616c0a597097320800000000000000
+      internalID: 2556082602738325206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_29
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 450
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6559f5f55a28260800000000000000
+      internalID: 7098417791733421792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_30
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 450
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e043663198852a240800000000000000
+      internalID: 4801497498489598990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_31
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 450
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcfd5f6eef9b0fc90800000000000000
+      internalID: -7138000904934531121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_32
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 419
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f937e6113dc3c80800000000000000
+      internalID: -8341560337976025196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_33
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 419
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3783a31001babe1c0800000000000000
+      internalID: -4473293719634036621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_34
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 419
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff272d152af62070800000000000000
+      internalID: 8081421618672775154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_35
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 419
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586faa003f29b6d40800000000000000
+      internalID: 5578714135814403717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_36
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 418
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cac461604d4768c0800000000000000
+      internalID: -4006148404615525692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_37
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 418
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0311868f1da83cc00800000000000000
+      internalID: 919731383334080816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_38
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 418
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0aa767e9db3b9f10800000000000000
+      internalID: 2277479843642190350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_39
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 418
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b616d515114b13b90800000000000000
+      internalID: -7263826737499381397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_40
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 418
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342ea928bdf7cc140800000000000000
+      internalID: 4741305088480043587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_41
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 418
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8926edc5f66c77e0800000000000000
+      internalID: -1766423747928643190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_42
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 418
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d6ee76d58eca9b0800000000000000
+      internalID: -5067419992825369263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_43
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 418
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3fd4da30111461e0800000000000000
+      internalID: -2205619156100522177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_44
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 418
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975d7d6c26f3ff190800000000000000
+      internalID: -7926547125673405063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_45
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 418
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cdf0d0184a06fca0800000000000000
+      internalID: -5983583750279070268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_46
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 418
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7bae6a51ddcd2b0800000000000000
+      internalID: -5558324755017582662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_47
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 418
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71fdb63110d7d3b30800000000000000
+      internalID: 4268705465391374103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_48
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 387
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e795310ff6594fae0800000000000000
+      internalID: -1516422866515306114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_49
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 387
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adeca48384f986770800000000000000
+      internalID: 8604302220622221018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_50
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 387
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f90c6de16f5bdbe00800000000000000
+      internalID: 1062205155813277855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_51
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 387
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad66a2030cf4b8b10800000000000000
+      internalID: 1984767747647235802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_52
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 225
+        width: 29
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71099bf7a2ce9a5e0800000000000000
+      internalID: -1897726100684304361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_53
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 225
+        width: 27
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0212e1ac329681c0800000000000000
+      internalID: -4501749988398591477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_54
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 129
+        width: 30
+        height: 287
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de22f44399015b20800000000000000
+      internalID: 3121286544866029268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_55
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 129
+        width: 32
+        height: 287
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d79224a01cea360800000000000000
+      internalID: 7182890705506368907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_56
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 386
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf21825538e21cc0800000000000000
+      internalID: -3741673024676352084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_57
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 386
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a2fec9620ebb960800000000000000
+      internalID: 7618929651073624722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_58
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 386
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e77f6738dde7d820800000000000000
+      internalID: 2943082394408679399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_59
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 386
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be45f81ab9f692ed0800000000000000
+      internalID: -2438295009023273749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_60
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 386
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c173a53f50d0952f0800000000000000
+      internalID: -983740724394969316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_61
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 386
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61f34a66d475e4000800000000000000
+      internalID: 22051038129569558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_62
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 386
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee49e18928227b710800000000000000
+      internalID: 1708872527903626478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_63
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 386
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c443c99eadd4ef570800000000000000
+      internalID: 8502318749139612748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_64
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 322
+        width: 64
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a226070f185b790800000000000000
+      internalID: -7514957533520188814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_65
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 355
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6b2f36072da2150800000000000000
+      internalID: 5848718446249031392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_66
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 355
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dedad89f74d84e500800000000000000
+      internalID: 424619605148675565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_67
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 356
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8001ea0b487d580800000000000000
+      internalID: -8802421052302948189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_68
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 356
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65d0ec3529ba5c910800000000000000
+      internalID: 1857079066319785302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_69
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 355
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f739c7fc2ce4330800000000000000
+      internalID: 3697106540521815929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_70
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 356
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4cc8c632263a6b80800000000000000
+      internalID: -8400842634330321841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_71
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 358
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e95792908f8d1000800000000000000
+      internalID: 8320556702587361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_72
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 358
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb901e0a570918300800000000000000
+      internalID: 252641888994134460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_73
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 356
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90288a0d5cd537130800000000000000
+      internalID: 3563294834370839049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_74
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 356
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84532f9ce6530940800000000000000
+      internalID: 5261144363981034638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_75
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 323
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 573b8a1b2e92edda0800000000000000
+      internalID: -5918246806698282123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_76
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 323
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 538b6307ab0e7bb70800000000000000
+      internalID: 8914841078754359349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_77
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 324
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6116cb175e689f630800000000000000
+      internalID: 3961345667262865686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_78
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 324
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff72f1e38571dba0800000000000000
+      internalID: -6065938013799415812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_79
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 323
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d650b4128a1479ce0800000000000000
+      internalID: -1398576968906373779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_80
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 324
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab127f9017350a9e0800000000000000
+      internalID: -1612196921635036742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_81
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 326
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91cdd6c539bff1ec0800000000000000
+      internalID: -3593877367288898535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_82
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 326
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce71736158b98e60800000000000000
+      internalID: 7965100075681676995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_83
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 324
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0efa82db6293e0720800000000000000
+      internalID: 2814249655698239456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_84
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 324
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77ff7c9f346883d0800000000000000
+      internalID: -3204200910502758532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_85
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 290
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77f531184b054230800000000000000
+      internalID: 3622313879443732350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_86
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 290
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3aef3ad8be9cb860800000000000000
+      internalID: 7547081592338901562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_87
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 290
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532be03594e4f14a0800000000000000
+      internalID: -6620486850378288587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_88
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 290
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0de995d6c6ed5430800000000000000
+      internalID: 3773425804467891470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_89
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 292
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc224167076335150800000000000000
+      internalID: 5860087396784415437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_90
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 292
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f720a78224a93040800000000000000
+      internalID: 4627910560311158769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_91
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 291
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 841e616f5fffe7990800000000000000
+      internalID: -7386184906980269752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_92
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 292
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41746a896e30faa30800000000000000
+      internalID: 4228602864062580500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_93
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 294
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: effacf5455ccf4b50800000000000000
+      internalID: 6579702247230058494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_94
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 294
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0907b25e1509d7510800000000000000
+      internalID: 1548552528296898704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_95
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 292
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4b90a7062ef44d0800000000000000
+      internalID: -3148048710516493058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_96
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 292
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea695ab049ca0e810800000000000000
+      internalID: 1792622403543996078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_97
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 257
+        width: 128
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4dc7c7e25bd4d00800000000000000
+      internalID: 958621506961462512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_98
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 260
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eca50b0787c55460800000000000000
+      internalID: 7229904159632633059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_99
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 260
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81705589b743949c0800000000000000
+      internalID: -3942562293344827624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_100
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 259
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c51090328f6dbe0800000000000000
+      internalID: -1452701000421778429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_101
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 260
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4190fb80f39099900800000000000000
+      internalID: 691594184112408852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_102
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 262
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e46a49ef76636d0800000000000000
+      internalID: -3011104957737316767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_103
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 262
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c84bfb39ca03ea0800000000000000
+      internalID: -5895022161651528557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_104
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 260
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec944d73a64093d80800000000000000
+      internalID: -8270574386439501362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_105
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 260
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a3c2c69f8987c410800000000000000
+      internalID: 1497316650926654374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_106
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 226
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ab4651e5438f190800000000000000
+      internalID: -7928529565295265163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_107
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 226
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e54c440750ca58f0800000000000000
+      internalID: -550916524432669215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_108
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 226
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972b546de25b51a30800000000000000
+      internalID: 4185450641478759033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_109
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 226
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d3314ce8a13b9a0800000000000000
+      internalID: -6218597459991249626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_110
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 225
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 961785d26ff4dc660800000000000000
+      internalID: 7407664880835653993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_111
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 225
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb685b5d4c4586e0800000000000000
+      internalID: -1835977377954894902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_112
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 225
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e450ed3959c9bb10800000000000000
+      internalID: 1997849294842909926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_113
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 225
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79268a411ebc60c70800000000000000
+      internalID: 8937054678137987735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_114
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 225
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8caaa722652c1e160800000000000000
+      internalID: 7053132166640347848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_115
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 225
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd147dc7f27e1ab0800000000000000
+      internalID: -5035460924724208171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_116
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 225
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2eafc31cdcc1420800000000000000
+      internalID: 2602180914548761261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_117
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 225
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12378adffad22a420800000000000000
+      internalID: 2639722565490733857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_118
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 194
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce6ac4c07f19a5360800000000000000
+      internalID: 7159195047908124396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_119
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 194
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a65fb2b642ab650c0800000000000000
+      internalID: -4587274504850639510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_120
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 194
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdef536336fa56060800000000000000
+      internalID: 6946150840934989531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_121
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 194
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e003ccc7b0d155e80800000000000000
+      internalID: -8190608412127776754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_122
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 193
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38bb07da14e3ea70800000000000000
+      internalID: 8855172096268679230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_123
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 193
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496be1ca4b65294e0800000000000000
+      internalID: -1976421952480430444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_124
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 193
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c5ef94732d3c6690800000000000000
+      internalID: -7607638448045824569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_125
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 193
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc18f3ec27a63e40800000000000000
+      internalID: 5635875794945842365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_126
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 193
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5451d399aaac3fb0800000000000000
+      internalID: -4666667468556512164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_127
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 193
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c865756cd1887d0800000000000000
+      internalID: -2916048021016376318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_128
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 193
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d0eb490ba8ef8f0800000000000000
+      internalID: -504813617204556388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_129
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 193
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b62ffb931afeef0800000000000000
+      internalID: -76665399236465799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_130
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 193
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced75f7fedd26f310800000000000000
+      internalID: 1438387566657502700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_131
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 193
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a9c98017749fe70800000000000000
+      internalID: 9149422668781230727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_132
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 162
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced09891fe9313c50800000000000000
+      internalID: 6643154624436571628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_133
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 162
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9097b574422485940800000000000000
+      internalID: 5285046886302710025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_134
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 162
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5064286acff1cdc30800000000000000
+      internalID: 4385415307137795589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_135
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 162
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4096f5e616a7290800000000000000
+      internalID: -7891888270338358112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_136
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 161
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980f03633ea369f40800000000000000
+      internalID: 5734835923044069513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_137
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 161
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18678aa5187bc6ed0800000000000000
+      internalID: -2419357133605144959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_138
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 161
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba9e1d547f3f3c40800000000000000
+      internalID: 5494179839426337467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_139
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 161
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82dbc2b67ef6eb1e0800000000000000
+      internalID: -2180182129874518744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_140
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 161
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c0e4f5997534bd0800000000000000
+      internalID: -2647175839723156426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_141
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 161
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51255818c91ca20d0800000000000000
+      internalID: -3446729686866636267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_142
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 161
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fbb17e960b11c8e0800000000000000
+      internalID: -1675027871163106313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_143
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 161
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de2f301a909e809a0800000000000000
+      internalID: -6266502653920677139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_144
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 161
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e995e25800ffb170800000000000000
+      internalID: 8196533765378775529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_145
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 161
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f180aa6bb7d71a6e0800000000000000
+      internalID: -1828042003436664801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_146
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 130
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e030c908847ec70b0800000000000000
+      internalID: -5729450327340743922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_147
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 130
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413670ba12a977ed0800000000000000
+      internalID: -2416293205666995436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_148
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 130
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d758bdab67079c40800000000000000
+      internalID: 5518888027423266769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_149
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 130
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6707608d7a41f3b50800000000000000
+      internalID: 6574996692100608118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_150
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 129
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed1d53243f1b1630800000000000000
+      internalID: 3898744211211361762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_151
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 129
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f99e53c407c9300800000000000000
+      internalID: 260206351104974672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_152
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 129
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d5daece566af200800000000000000
+      internalID: 214596489633946915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_153
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 129
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c57fc38e8410af180800000000000000
+      internalID: -9080944285993601188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_154
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 129
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1cdc92acc597800800000000000000
+      internalID: 610621247839912381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_155
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 129
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86633b7e32214f4f0800000000000000
+      internalID: -795991288717298072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_156
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 129
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f536842fcaf5d5220800000000000000
+      internalID: 2476240566527484767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_157
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 129
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f7416fad96abb7a0800000000000000
+      internalID: -6360306852548229128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_158
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 129
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781a4ec2fdc8cd670800000000000000
+      internalID: 8564875481510617479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Enemies & Special
+        Projectiles_159
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 129
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d488bc82e69c2f0800000000000000
+      internalID: -952108724719694503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
