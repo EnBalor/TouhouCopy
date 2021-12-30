@@ -18,6 +18,14 @@ public class First_Enemybullet : MonoBehaviour
 
     void Update()
     {
-        transform.Translate(dir * Time.deltaTime * _speed);
+        transform.Translate(dir * 1f * Time.deltaTime);
+
+        StartCoroutine(Boost());
+    }
+
+    IEnumerator Boost()
+    {
+        yield return new WaitForSeconds(1f);
+        transform.Translate(dir * Time.deltaTime * _speed, Space.Self);
     }
 }

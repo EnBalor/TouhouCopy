@@ -19,14 +19,19 @@ public class First_Enemy : MonoBehaviour
 
     IEnumerator Fire()
     {
-        yield return new WaitForSeconds(1.3f);
+        yield return new WaitForSeconds(1f);
 
-        for (int i = 0; i < 10; i++)
+        for (int i = 0; i < 3; i++)
         {
-            yield return new WaitForSeconds(0.01f);
-            GameObject bullet = Instantiate(_bullet);
-            _bullet.transform.position = this.transform.position;
-            Destroy(bullet, 2f);
+            for (int j = 0; j < 10; j++)
+            {
+                yield return new WaitForSeconds(0.001f);
+                GameObject bullet = Instantiate(_bullet);
+                _bullet.transform.position = this.transform.position;
+                Destroy(bullet, 2f);
+            }
+
+            yield return new WaitForSeconds(0.5f);
         }
     }
 }
