@@ -25,7 +25,7 @@ public class Ellipse_Bullet : MonoBehaviour
 
     IEnumerator Boost()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.5f);
         transform.Translate(Vector3.down * Time.deltaTime * _speed, Space.Self);
     }
 }

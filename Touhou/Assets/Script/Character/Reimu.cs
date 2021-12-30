@@ -31,12 +31,12 @@ public class Reimu : MonoBehaviour
         {
             for (int i = -10; i < 20; i += 10)
             {
-                GameObject temp = Instantiate(_bullet);
+                GameObject bullet = Instantiate(_bullet);
 
-                Destroy(temp, 1f);
+                Destroy(bullet, 1f);
 
-                temp.transform.position = _player.transform.position;
-                temp.transform.rotation = Quaternion.Euler(0, 0, i);
+                bullet.transform.position = _player.transform.position;
+                bullet.transform.rotation = Quaternion.Euler(0, 0, i);
             }
         }
     }
