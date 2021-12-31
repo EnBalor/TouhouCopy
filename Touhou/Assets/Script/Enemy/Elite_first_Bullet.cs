@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Elite_first_Bullet : MonoBehaviour
 {
+    [SerializeField]
+    GameObject _shotPoint = null;
+
     public float _speed = 5f;
     
     void Start()
@@ -13,7 +16,9 @@ public class Elite_first_Bullet : MonoBehaviour
 
     void Update()
     {
-        transform.Translate(Vector3.right * _speed * Time.deltaTime);
+        Vector3 dir = _shotPoint.transform.right;
+
+        transform.Translate(dir * _speed * Time.deltaTime, Space.Self);
 
         //StartCoroutine(Boost());
     }
@@ -21,6 +26,6 @@ public class Elite_first_Bullet : MonoBehaviour
     IEnumerator Boost()
     {
         yield return new WaitForSeconds(1f);
-        transform.Translate(Vector3.right * Time.deltaTime * _speed, Space.Self);
+        transform.Translate(Vector3.right * Time.deltaTime * _speed);
     }
 }

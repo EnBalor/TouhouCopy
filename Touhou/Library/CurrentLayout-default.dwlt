@@ -115,7 +115,7 @@ MonoBehaviour:
   m_MinSize: {x: 811, y: 492}
   m_MaxSize: {x: 22006, y: 14042}
   vertical: 0
-  controlID: 36
+  controlID: 17
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_MinSize: {x: 535, y: 492}
   m_MaxSize: {x: 18005, y: 14042}
   vertical: 1
-  controlID: 37
+  controlID: 18
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -165,7 +165,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 38
+  controlID: 19
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -245,7 +245,7 @@ MonoBehaviour:
   m_MinSize: {x: 535, y: 271}
   m_MaxSize: {x: 18005, y: 10021}
   vertical: 0
-  controlID: 86
+  controlID: 68
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -393,7 +393,7 @@ MonoBehaviour:
   m_VSyncEnabled: 0
   m_Gizmos: 0
   m_Stats: 0
-  m_SelectedSizes: 09000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_SelectedSizes: 0b000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
@@ -478,9 +478,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -3.7745254, y: 0.63132054, z: -6.7871094}
+    m_Target: {x: -1.5521572, y: 0.017609939, z: -0.23095703}
     speed: 2
-    m_Value: {x: -3.7745254, y: 0.63132054, z: -6.7871094}
+    m_Value: {x: -1.5521572, y: 0.017609939, z: -0.23095703}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -530,9 +530,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 6.1283684
+    m_Target: 2.9780958
     speed: 2
-    m_Value: 5.864467
+    m_Value: 2.9780958
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -678,18 +678,18 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 14d0ffffdaedffff663f0000
+      m_ExpandedIDs: 90eeffff923f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Hexagram(Clone)
-        m_OriginalName: Hexagram(Clone)
+        m_Name: Shotpoint_1 (3)
+        m_OriginalName: Shotpoint_1 (3)
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -33206
+        m_UserData: -238300
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
@@ -773,14 +773,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Script/Enemy
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: "C:\\Users\\En_balor\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\unity\\touhouproject"
+  m_LastProjectPath: C:\Users\SGA\Desktop\unity_yeon\touhouproject
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 7}
-    m_SelectedIDs: 2c400000
-    m_LastClickedID: 16428
-    m_ExpandedIDs: 0000000016400000184000001a400000224000002c40000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 26400000
+    m_LastClickedID: 16422
+    m_ExpandedIDs: 000000001240000014400000164000001c400000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -808,7 +808,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000016400000184000001a400000
+    m_ExpandedIDs: 00000000124000001440000016400000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -836,7 +836,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000524f000000000000c6cdffffc2510000623c0000
+    m_ExpandedInstanceIDs: c6230000524f000000000000c6cdffffc2510000623c0000043c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
