@@ -26,17 +26,16 @@ public class Ellipse_Controller : MonoBehaviour
         yield return new WaitForSeconds(0.2f);
 
         
-        for (int i = -10; i < 0; i += 1)
+        for (int i = 0; i < 3; i++)
         {
-            yield return new WaitForSeconds(0.001f);
             _bullet.transform.position = this.transform.position;
 
 
-            for (int j = 0; j < 3; j++)
+            for (int j = -10; j < 0; j+= 1)
             {
                 yield return new WaitForSeconds(0.01f);
                 GameObject bullet = Instantiate(_bullet);
-                bullet.transform.rotation = Quaternion.Euler(0, 0, i);
+                bullet.transform.rotation = Quaternion.Euler(0, 0, j);
                 
                 Destroy(bullet, 5f);
             }

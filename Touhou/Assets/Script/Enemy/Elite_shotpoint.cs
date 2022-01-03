@@ -4,23 +4,18 @@ using UnityEngine;
 
 public class Elite_shotpoint : MonoBehaviour
 {
+
     [SerializeField]
     GameObject _bullet = null;
 
-    float count = 3;
-    float max = 3;
-
     void Start()
     {
-        
+        StartCoroutine(Fire());
     }
 
     void Update()
     {
-        if (count >= max)
-        {
-            StartCoroutine(Fire());
-        }
+        
     }
 
     IEnumerator Fire()
@@ -29,8 +24,9 @@ public class Elite_shotpoint : MonoBehaviour
 
         for (int i = -10; i < 10; i += 10)
         {
-            //yield return new WaitForSeconds(0.1f);
+            yield return new WaitForSeconds(0.001f);
             _bullet.transform.position = this.transform.position;
+
 
             for (int j = 0; j < 3; j++)
             {
@@ -41,6 +37,5 @@ public class Elite_shotpoint : MonoBehaviour
                 Destroy(bullet, 5f);
             }
         }
-        count += 1f;
     }
 }

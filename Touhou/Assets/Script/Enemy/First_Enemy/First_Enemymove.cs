@@ -20,7 +20,7 @@ public class First_Enemymove : MonoBehaviour
     void Update()
     {
         this.transform.Translate(Vector3.up * Time.deltaTime * _speed);
-        //StartCoroutine(Rot());
+        StartCoroutine(Rot());
     }
 
     IEnumerator Rot()
@@ -28,6 +28,16 @@ public class First_Enemymove : MonoBehaviour
         yield return new WaitForSeconds(1.0f);
 
         transform.Translate(Vector2.up * _speed * Time.deltaTime, Space.Self);
-        _first.transform.rotation = Quaternion.Euler(0, 0, _limit * Time.deltaTime);
+
+        if (this.transform.position.x >= 0)
+        {
+            _first.transform.Rotate(Vector2.down * _rotspeed * 100 * Time.deltaTime);
+        }
+
+        else if (this.transform.position.x <= 0)
+        {
+            _first.transform.rotation = Quaternion.Euler(0, 0, -(_rotspeed * Time.deltaTime));
+
+        }
     }
 }
