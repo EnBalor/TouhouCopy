@@ -449,7 +449,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24b3de4dba0af4a4481ac240136dea83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _hexagram: {fileID: 0}
+  _hexagram: {fileID: 2526140354152183602, guid: 240b62959d2cad84884bae43836ad3f7,
+    type: 3}
   _shotPoint: {fileID: 6660229460363273298}
   _speed: 5
 --- !u!1 &6660229461013989642

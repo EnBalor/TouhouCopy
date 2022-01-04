@@ -141,4 +141,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _first: {fileID: 7564675152755725785}
   _speed: 7
-  _rotspeed: 5
+  _rotspeed: 100

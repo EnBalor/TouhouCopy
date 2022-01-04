@@ -13,14 +13,6 @@ public class Boss_bullet : MonoBehaviour
 
     void Update()
     {
-        transform.Translate(Vector3.right * _speed * Time.deltaTime);
-
-        //StartCoroutine(Boost());
-    }
-
-    IEnumerator Boost()
-    {
-        yield return new WaitForSeconds(1f);
-        transform.Translate(Vector3.right * Time.deltaTime * _speed, Space.Self);
+        transform.Translate(Vector3.down * _speed * Time.deltaTime);
     }
 }
