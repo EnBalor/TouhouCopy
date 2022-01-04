@@ -13,6 +13,7 @@ public class Bullet : MonoBehaviour
     void Start()
     {
         Destroy(_bullet, 1f);
+
     }
 
     void Update()
