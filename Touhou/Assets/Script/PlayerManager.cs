@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class PlayerManager : MonoBehaviour
 {
-    public float _speed = 5.0f;
+    [SerializeField]
+    GameObject _dot = null;
+
+    public float _speed = 10f;
 
     Animator _animator;
 
@@ -20,6 +23,7 @@ public class PlayerManager : MonoBehaviour
     void Start()
     {
         _animator = GetComponentInChildren<Animator>();
+        _dot.SetActive(false);
     }
 
     void Update()
@@ -44,6 +48,18 @@ public class PlayerManager : MonoBehaviour
         if (Input.GetKey(KeyCode.RightArrow))
         {
             transform.Translate(Vector3.right * Time.deltaTime * _speed);
+        }
+
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            _speed = 4f;
+            _dot.SetActive(true);
+        }
+
+        if (Input.GetKeyUp(KeyCode.LeftShift))
+        {
+            _speed = 10f;
+            _dot.SetActive(false);
         }
     }
 

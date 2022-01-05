@@ -7,7 +7,7 @@ public class Chaser : MonoBehaviour
     [SerializeField]
     GameObject _bullet = null;
 
-    public float _speed = 10.0f;
+    public float _speed = 1.0f;
 
 
     void Start()
@@ -20,11 +20,12 @@ public class Chaser : MonoBehaviour
     {
         GameObject target = GameObject.FindGameObjectWithTag("Enemy");
 
-        Vector3 dir = (this.transform.position - target.transform.position).normalized;
+        Vector3 dir = target.transform.position - this.transform.position;
 
-        transform.Translate(Vector2.up * _speed * Time.deltaTime, Space.Self);
+        transform.Translate(dir * _speed * Time.deltaTime);
 
-        this.transform.position = dir * Time.deltaTime * _speed;
+
+        //this.transform.position = Vector3.up * Time.deltaTime * _speed;
 
     }
 }

@@ -7,9 +7,14 @@ public class First_Enemy : MonoBehaviour
     [SerializeField]
     GameObject _bullet = null;
 
+    [SerializeField]
+    GameManager _gameManager = null;
+
     private void Start()
     {
         StartCoroutine(Fire());
+        _gameManager = GetComponent<GameManager>();
+        _gameManager._isEnemy = true;
     }
 
     void Update()
