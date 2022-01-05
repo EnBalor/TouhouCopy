@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Boss_bullet : MonoBehaviour
 {
-    public float _speed = 3f;
+    public float _speed = 5f;
 
     void Start()
     {

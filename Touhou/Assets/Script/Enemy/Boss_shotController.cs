@@ -4,34 +4,64 @@ using UnityEngine;
 
 public class Boss_shotController : MonoBehaviour
 {
-    public float _rotSpeed = 200.0f;
+    public float _rotSpeed = 200f;
 
     [SerializeField]
     GameObject _bullet = null;
 
+    float _fire = 10f;
+    float _rot = 0f;
+    float _delay = 10f;
+
+    int _rottime = 0;
+    int _rotate = 2;
+
     void Start()
     {
-        StartCoroutine(Fire());
-
+        
     }
 
     void Update()
     {
+        GameObject _left = GameObject.FindGameObjectWithTag("Left");
+        GameObject _right = GameObject.FindGameObjectWithTag("Right");
 
-    }
+        _fire++;
+        _rot++;
 
-    IEnumerator Fire()
-    {
-        for (int i = 0; i < 360; i++)
+        if(CompareTag("Right") == true)
         {
-            for (int j = 0; j < 360; j += 90)
+            if (_rot >= _delay)
             {
-                yield return new WaitForSeconds(0.04f);
+                this.transform.Rotate(0, 0, -(_rotSpeed * Time.deltaTime));
+            }
+
+            if (_fire >= _delay)
+            {
                 GameObject bullet = Instantiate(_bullet);
                 bullet.transform.position = this.transform.position;
-                bullet.transform.rotation = Quaternion.Euler(0, 0, j);
+                bullet.transform.rotation = this.transform.rotation;
 
-                this.transform.Rotate(0, 0, _rotSpeed * Time.deltaTime);
+                _fire = 0f;
+
+                Destroy(bullet, 3f);
+            }
+        }
+
+        if (CompareTag("Left") == true)
+        {
+            if (_rot >= _delay)
+            {
+                this.transform.Rotate(0, 0, (_rotSpeed * Time.deltaTime));
+            }
+
+            if (_fire >= _delay)
+            {
+                GameObject bullet = Instantiate(_bullet);
+                bullet.transform.position = this.transform.position;
+                bullet.transform.rotation = this.transform.rotation;
+
+                _fire = 0f;
 
                 Destroy(bullet, 3f);
             }
