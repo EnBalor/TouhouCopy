@@ -4,17 +4,21 @@ using UnityEngine;
 
 public class Boss_shotController : MonoBehaviour
 {
-    public float _rotSpeed = 200f;
+    float _rotSpeed = 1f;
 
     [SerializeField]
     GameObject _bullet = null;
 
-    float _fire = 10f;
-    float _rot = 0f;
-    float _delay = 10f;
+    float _fire = 0.05f;
+    float _delay = 0.05f;
 
-    int _rottime = 0;
-    int _rotate = 2;
+    float _rot = 0f;
+    float _rotateTime = 0.3f;
+
+    float _timer = 0;
+    float _waiting = 2.5f;
+
+    bool _turnshot = false;
 
     void Start()
     {
@@ -23,47 +27,56 @@ public class Boss_shotController : MonoBehaviour
 
     void Update()
     {
+        Vector3 dir = new Vector3(0, 0, _rotSpeed * Time.deltaTime);
+
         GameObject _left = GameObject.FindGameObjectWithTag("Left");
         GameObject _right = GameObject.FindGameObjectWithTag("Right");
 
-        _fire++;
-        _rot++;
+        _timer += Time.deltaTime;
 
-        if(CompareTag("Right") == true)
+        if (_timer <= _waiting)
         {
-            if (_rot >= _delay)
-            {
-                this.transform.Rotate(0, 0, -(_rotSpeed * Time.deltaTime));
-            }
+            _fire += Time.deltaTime;
+            _rot += Time.deltaTime;
 
-            if (_fire >= _delay)
+            if (CompareTag("Right") == true)
             {
                 GameObject bullet = Instantiate(_bullet);
-                bullet.transform.position = this.transform.position;
-                bullet.transform.rotation = this.transform.rotation;
 
-                _fire = 0f;
+                if (_rot >= _rotateTime)
+                {
+                    this.transform.Rotate(-(dir.normalized));
+                }
 
-                Destroy(bullet, 3f);
+                if (_fire >= _delay)
+                {
+                    bullet.transform.position = this.transform.position;
+                    bullet.transform.rotation = this.transform.rotation;
+
+                    _fire = 0f;
+
+                    Destroy(bullet, 3f);
+                }
             }
-        }
 
-        if (CompareTag("Left") == true)
-        {
-            if (_rot >= _delay)
-            {
-                this.transform.Rotate(0, 0, (_rotSpeed * Time.deltaTime));
-            }
-
-            if (_fire >= _delay)
+            if (CompareTag("Left") == true)
             {
                 GameObject bullet = Instantiate(_bullet);
-                bullet.transform.position = this.transform.position;
-                bullet.transform.rotation = this.transform.rotation;
 
-                _fire = 0f;
+                if (_rot >= _rotateTime)
+                {
+                    this.transform.Rotate((dir.normalized));
+                }
 
-                Destroy(bullet, 3f);
+                if (_fire >= _delay)
+                {
+                    bullet.transform.position = this.transform.position;
+                    bullet.transform.rotation = this.transform.rotation;
+
+                    _fire = 0f;
+
+                    Destroy(bullet, 3f);
+                }
             }
         }
     }

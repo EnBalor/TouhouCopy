@@ -66,6 +66,8 @@
     <Compile Include="Assets\Script\Character\Reimu.cs" />
     <Compile Include="Assets\Script\Chaser.cs" />
     <Compile Include="Assets\Script\Enemy\Boss_bullet.cs" />
+    <Compile Include="Assets\Script\Enemy\Boss_redbullet.cs" />
+    <Compile Include="Assets\Script\Enemy\Boss_redshot.cs" />
     <Compile Include="Assets\Script\Enemy\Boss_shot.cs" />
     <Compile Include="Assets\Script\Enemy\Boss_shotController.cs" />
     <Compile Include="Assets\Script\Enemy\Elite_first\Elite_first_Bullet.cs" />
