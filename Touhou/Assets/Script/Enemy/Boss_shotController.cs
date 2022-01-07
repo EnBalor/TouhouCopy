@@ -16,7 +16,7 @@ public class Boss_shotController : MonoBehaviour
     float _rotateTime = 0.3f;
 
     float _timer = 0;
-    float _waiting = 2.5f;
+    float _stopTimer = 2f;
 
     bool _turnshot = false;
 
@@ -34,7 +34,7 @@ public class Boss_shotController : MonoBehaviour
 
         _timer += Time.deltaTime;
 
-        if (_timer <= _waiting)
+        if (_timer <= _stopTimer)
         {
             _fire += Time.deltaTime;
             _rot += Time.deltaTime;

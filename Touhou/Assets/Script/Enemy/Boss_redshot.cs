@@ -7,12 +7,17 @@ public class Boss_redshot : MonoBehaviour
     [SerializeField]
     GameObject _bullet = null;
 
+
+    //총알 도착지
     [SerializeField]
     GameObject _end = null;
 
+
+    //패턴 진행 시간
     float _pattern = 0f;
     float _patternTime = 2f;
 
+    //총알 발사 딜레이
     float _fire = 0.1f;
     float _delay = 0.1f;
 
@@ -20,8 +25,10 @@ public class Boss_redshot : MonoBehaviour
 
     void Start()
     {
+        //총알 도착지 생성, 반복문으로 15f 거리에 원형으로 생성
         for (int i = 160; i < 400; i += 20)
         {
+            //위치값을 원형으로 생성
             Vector3 pos = new Vector3(Mathf.Cos(i * Mathf.Deg2Rad), Mathf.Sin(i * Mathf.Deg2Rad), 0);
 
             GameObject end = Instantiate(_end);
@@ -55,4 +62,19 @@ public class Boss_redshot : MonoBehaviour
             }
         }
     }
+
+    //private void OnDrawGizmos()
+    //{
+    //    Gizmos.color = Color.red;
+    //
+    //    for (int i = 160; i < 400; i += 20)
+    //    {
+    //        //위치값을 원형으로 생성
+    //        Vector3 pos = new Vector3(Mathf.Cos(i * Mathf.Deg2Rad), Mathf.Sin(i * Mathf.Deg2Rad), 0);
+    //
+    //        Gizmos.DrawWireSphere(this.transform.position, 1f);
+    //
+    //    }
+    //}
+
 }
