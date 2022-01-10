@@ -772,6 +772,55 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _bullet: {fileID: 8642278306826036275, guid: be0597a0f7549f04988d381d04c40d5f, type: 3}
+--- !u!1 &417488747
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 417488748}
+  - component: {fileID: 417488749}
+  m_Layer: 0
+  m_Name: Ichijo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &417488748
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 417488747}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5486466370428844777}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &417488749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 417488747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7d4d9a1b59108141aaf138109dad6e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _leftShotPoint: {fileID: 296761494186724991, guid: 02532a1cd5ff1904fb95e45425b095a5,
+    type: 3}
+  _RightShotPoint: {fileID: 670553534606448388, guid: 24ef1ef2d65a17244ba0171d805903b5,
+    type: 3}
+  _speed: 3
+  _rotSpeed: 5
 --- !u!1 &431700956
 GameObject:
   m_ObjectHideFlags: 0
@@ -2984,6 +3033,7 @@ Transform:
   - {fileID: 5486466370092693753}
   - {fileID: 5486466370724472737}
   - {fileID: 1852841719}
+  - {fileID: 417488748}
   m_Father: {fileID: 3065579786533977339}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
