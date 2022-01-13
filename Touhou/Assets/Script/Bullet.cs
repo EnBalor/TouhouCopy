@@ -20,4 +20,13 @@ public class Bullet : MonoBehaviour
     {
         transform.Translate(Vector2.up * _speed * Time.deltaTime, Space.Self);
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Enemy")
+        {
+            Debug.Log("destbullet");
+            Destroy(_bullet);
+        }
+    }
 }

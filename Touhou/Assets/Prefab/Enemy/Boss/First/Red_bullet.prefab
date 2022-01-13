@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 76589348291177991}
   m_Layer: 0
   m_Name: Red_bullet
-  m_TagString: Untagged
+  m_TagString: Enemy_bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -96,4 +96,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _end: {fileID: 990325089278165317, guid: 094640037c040c84386cd225676a5ff4, type: 3}
-  findend: []
+  _shotpoint: {fileID: 0}
+  _findend: []
+  _sphere: {fileID: 0}

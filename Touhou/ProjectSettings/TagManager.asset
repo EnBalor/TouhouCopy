@@ -8,6 +8,7 @@ TagManager:
   - Left
   - Right
   - Endbullet
+  - Enemy_bullet
   layers:
   - Default
   - TransparentFX

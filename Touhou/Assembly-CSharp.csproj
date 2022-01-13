@@ -89,7 +89,8 @@
     <Compile Include="Assets\Script\Enemy\Middle_Boss\Ichijo\Left_Ichijo.cs" />
     <Compile Include="Assets\Script\Enemy\Middle_Boss\Ichijo\Right_Ichijo.cs" />
     <Compile Include="Assets\Script\GameManager.cs" />
-    <Compile Include="Assets\Script\PlayerManager.cs" />
+    <Compile Include="Assets\Script\Player\Guide_Manager.cs" />
+    <Compile Include="Assets\Script\Player\PlayerManager.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/unityHub/2019.4.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

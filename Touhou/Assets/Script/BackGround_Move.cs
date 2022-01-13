@@ -8,7 +8,7 @@ public class BackGround_Move : MonoBehaviour
     GameObject _backGround = null;
     Renderer _renderer;
 
-    float _speed = 5f;
+    float _speed = 1f;
     float _offset;
 
 
@@ -19,7 +19,7 @@ public class BackGround_Move : MonoBehaviour
 
     void Update()
     {
-        _offset = _speed * Time.deltaTime;
+        _offset += _speed * Time.deltaTime;
         _renderer.material.SetTextureOffset("_MainTex", new Vector2(0, _offset));
     }
 }
