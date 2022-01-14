@@ -9,6 +9,7 @@ TagManager:
   - Right
   - Endbullet
   - Enemy_bullet
+  - Player_bullet
   layers:
   - Default
   - TransparentFX

@@ -2886,8 +2886,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _player: {fileID: 1299927620}
-  _bullet: {fileID: 2466976843046287816, guid: 3ce59264e879a934eb9feeccf97f7498, type: 3}
-  _chaser: {fileID: 7920139218658736212, guid: 6a826a81aaa223b40b5ffb38b13131da, type: 3}
+  _bullet: {fileID: 6599265445088762157, guid: 10d8fe78602812449a35c930b7c2a802, type: 3}
+  _chaser: {fileID: 2881012573552457273, guid: f3b5e40966f525549994f77089123e35, type: 3}
 --- !u!1 &1323382203
 GameObject:
   m_ObjectHideFlags: 0
@@ -5193,6 +5193,7 @@ GameObject:
   - component: {fileID: 5486466368926188656}
   - component: {fileID: 5486466368926188663}
   - component: {fileID: 5486466368926188664}
+  - component: {fileID: 5486466368926188665}
   m_Layer: 0
   m_Name: Mokou
   m_TagString: Enemy
@@ -5237,6 +5238,24 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &5486466368926188665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5486466368926188662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f88256815e43b814b9c2280c073dcfc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _boss: {fileID: 7794663362769772550}
+  _pattern1: {fileID: 2793538227407716312}
+  _pattern2: {fileID: 5486466369593389904}
+  _pattern3: {fileID: 5486466370092693758}
+  _pattern4: {fileID: 5486466370724472742}
+  _bossHP: 1000
 --- !u!1 &5486466369593389904
 GameObject:
   m_ObjectHideFlags: 0

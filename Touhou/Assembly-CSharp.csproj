@@ -76,6 +76,7 @@
     <Compile Include="Assets\Script\Enemy\First_Enemy\First_Enemymove.cs" />
     <Compile Include="Assets\Script\Enemy\First_Enemy\First_ReadShot.cs" />
     <Compile Include="Assets\Script\Enemy\First_Enemy\First_Spawn.cs" />
+    <Compile Include="Assets\Script\Enemy\Middle_Boss\Boss_Manager.cs" />
     <Compile Include="Assets\Script\Enemy\Middle_Boss\DreamIn_controller.cs" />
     <Compile Include="Assets\Script\Enemy\Middle_Boss\Dreamin_Red.cs" />
     <Compile Include="Assets\Script\Enemy\Middle_Boss\First\Boss_bullet.cs" />

@@ -18,11 +18,11 @@ public class Boss_shotController : MonoBehaviour
     float _timer = 0;
     float _stopTimer = 2f;
 
-    bool _isFire = false;
+    public bool _isFire = false;
 
     void Start()
     {
-        _isFire = false;
+
     }
 
     void Update()

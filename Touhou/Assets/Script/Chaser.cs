@@ -7,12 +7,13 @@ public class Chaser : MonoBehaviour
     [SerializeField]
     GameObject _bullet = null;
 
-    public float _speed = 1.0f;
+    Boss_Manager _bossManager;
 
+    public float _speed = 1.0f;
 
     void Start()
     {
-
+        _bossManager = GetComponent<Boss_Manager>();
         Destroy(_bullet, 1f);
     }
 
@@ -23,9 +24,14 @@ public class Chaser : MonoBehaviour
         Vector3 dir = target.transform.position - this.transform.position;
 
         transform.Translate(dir * _speed * Time.deltaTime);
+    }
 
-
-        //this.transform.position = Vector3.up * Time.deltaTime * _speed;
-
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Enemy")
+        {
+            Destroy(_bullet);
+            Debug.Log("chaser");
+        }
     }
 }

@@ -10,7 +10,7 @@ public class Boss_Right_ichijo : MonoBehaviour
 
     public float _rotSpeed = 5f;
 
-    bool _isFire = true;
+    public bool _isFire = false;
 
     void Start()
     {

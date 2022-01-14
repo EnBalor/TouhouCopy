@@ -7,11 +7,14 @@ public class Bullet : MonoBehaviour
     [SerializeField]
     GameObject _bullet = null;
 
+    Boss_Manager _bossManager;
+
     public float _speed = 10.0f;
 
 
     void Start()
     {
+        _bossManager = GetComponent<Boss_Manager>();
         Destroy(_bullet, 1f);
 
     }
@@ -25,8 +28,8 @@ public class Bullet : MonoBehaviour
     {
         if (collision.tag == "Enemy")
         {
-            Debug.Log("destbullet");
             Destroy(_bullet);
+            Debug.Log("hit");
         }
     }
 }
