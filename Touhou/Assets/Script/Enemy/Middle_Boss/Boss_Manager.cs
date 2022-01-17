@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Boss_Manager : MonoBehaviour
 {
-    [SerializeField]
     GameObject _boss = null;
 
     [SerializeField]
@@ -19,6 +18,12 @@ public class Boss_Manager : MonoBehaviour
     [SerializeField]
     GameObject _pattern4 = null;
 
+    [SerializeField]
+    GameObject _leftichijo = null;
+
+    [SerializeField]
+    GameObject _rightichijo = null;
+
     public int _firstHP = 1000;
     public int _ichijoHP = 1000;
 
@@ -30,6 +35,9 @@ public class Boss_Manager : MonoBehaviour
 
     Boss_Left_ichijo _secondPattern;
     Boss_Right_ichijo _secondPattern2;
+
+    public bool _fstpattern;
+    public bool _ichijopattern;
 
     void Start()
     {
@@ -43,6 +51,9 @@ public class Boss_Manager : MonoBehaviour
         _pattern2.SetActive(false);
         _pattern3.SetActive(false);
         _pattern4.SetActive(false);
+
+        _leftichijo.SetActive(false);
+        _rightichijo.SetActive(false);
     }
 
     void Update()
@@ -51,7 +62,7 @@ public class Boss_Manager : MonoBehaviour
 
         if(_delay >= _first)
         {
-            _firstPattern._isFire = true;
+            _fstpattern = true;
             _pattern1.SetActive(true);
             _pattern2.SetActive(true);
             _pattern3.SetActive(true);
@@ -60,14 +71,20 @@ public class Boss_Manager : MonoBehaviour
 
         if(_firstHP <= 0)
         {
-            _firstPattern._isFire = false;
+            _fstpattern = false;
             _pattern1.SetActive(false);
             _pattern2.SetActive(false);
             _pattern3.SetActive(false);
             _pattern4.SetActive(false);
 
-            _secondPattern._isFire = true;
-            //_secondPattern2._isFire = true;
+            _ichijopattern = true;
+            _leftichijo.SetActive(true);
+            _rightichijo.SetActive(true);
+        }
+
+        if(Input.GetKeyDown(KeyCode.End))
+        {
+            _firstHP -= 1000;
         }
     }
 
@@ -75,8 +92,16 @@ public class Boss_Manager : MonoBehaviour
     {
         if (collision.tag == "Player_bullet")
         {
-            _firstHP -= 1;
-            Debug.Log("bosshit");
+            if (_firstHP >= 0)
+            {
+                _firstHP -= 1;
+                Debug.Log("bosshit");
+            }
+            else if (_firstHP <= 0)
+            {
+                _ichijoHP -= 1;
+                Debug.Log("ichijoHit");
+            }
         }
     }
 }

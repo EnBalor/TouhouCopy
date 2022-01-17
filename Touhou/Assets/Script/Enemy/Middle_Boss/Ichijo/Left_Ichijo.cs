@@ -7,51 +7,52 @@ public class Left_Ichijo : MonoBehaviour
     [SerializeField]
     GameObject _bullet = null;
 
-    float _fire = 0.01f;
-    float _delay = 0.01f;
-
-    float _isStop = 0f;
-    float _delay2 = 0.4f;
+    float _fire = 0.03f;
+    float _delay = 0.03f;
 
     public float _speed = 10f;
 
     public float _rotSpeed = 1f;
 
+    Boss_Manager _bm;
+
     void Start()
     {
-        
+        _bm = GameObject.Find("Mokou").GetComponent<Boss_Manager>();
     }
 
     void Update()
     {
-        _fire += Time.deltaTime;
-
-        if (_fire >= _delay)
+        if (_bm._ichijopattern == true)
         {
-            GameObject bullet = Instantiate(_bullet);
+            _fire += Time.deltaTime;
 
-            bullet.transform.position = this.transform.position;
-            bullet.transform.rotation = this.transform.rotation;
+            if (_fire >= _delay)
+            {
+                GameObject bullet = Instantiate(_bullet);
 
-            _fire = 0f;
+                bullet.transform.position = this.transform.position;
+                bullet.transform.rotation = this.transform.rotation;
 
-            Destroy(bullet, 3f);
+                _fire = 0f;
+
+                Destroy(bullet, 3f);
+            }
+
+
+            GameObject _shotPoint = transform.parent.gameObject;
+
+            float _distance = Vector3.Distance(this.transform.position, _shotPoint.transform.position);
+
+            this.transform.Translate(Vector2.down * _speed * Time.deltaTime, Space.Self);
+
+            if (_distance >= 15f)
+            {
+                _speed = 0f;
+            }
+
+            Vector3 dir = new Vector3(0, 0, _rotSpeed);
         }
-
-
-        GameObject _shotPoint = transform.parent.gameObject;
-
-        float _distance = Vector3.Distance(this.transform.position, _shotPoint.transform.position);
-
-        this.transform.Translate(Vector2.down * _speed * Time.deltaTime, Space.Self);
-
-        if (_distance >= 15f)
-        {
-            _speed = 0f;
-        }
-
-        Vector3 dir = new Vector3(0, 0, _rotSpeed);
-
         //this.transform.Rotate(dir.normalized);
     }
 }

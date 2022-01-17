@@ -4,14 +4,13 @@ using UnityEngine;
 
 public class PlayerManager : MonoBehaviour
 {
-    [SerializeField]
-    GameObject _dot = null;
-
     public float _speed = 10f;
 
     Animator _animator;
 
     string _state = "State";
+
+    Guide_Manager _gm;
 
     enum PlayerState
     {
@@ -23,40 +22,44 @@ public class PlayerManager : MonoBehaviour
     void Start()
     {
         _animator = GetComponentInChildren<Animator>();
+        _gm = GameObject.Find("Guide").GetComponent<Guide_Manager>();
     }
 
     void Update()
     {
-        ChangeState();
-
-        if (Input.GetKey(KeyCode.UpArrow))
+        if (_gm._dead == false)
         {
-            transform.Translate(Vector3.up * Time.deltaTime * _speed);
-        }
+            ChangeState();
 
-        if (Input.GetKey(KeyCode.DownArrow))
-        {
-            transform.Translate(Vector3.down * Time.deltaTime * _speed);
-        }
+            if (Input.GetKey(KeyCode.UpArrow))
+            {
+                transform.Translate(Vector3.up * Time.deltaTime * _speed);
+            }
 
-        if (Input.GetKey(KeyCode.LeftArrow))
-        {
-            transform.Translate(Vector3.left * Time.deltaTime * _speed);
-        }
+            if (Input.GetKey(KeyCode.DownArrow))
+            {
+                transform.Translate(Vector3.down * Time.deltaTime * _speed);
+            }
 
-        if (Input.GetKey(KeyCode.RightArrow))
-        {
-            transform.Translate(Vector3.right * Time.deltaTime * _speed);
-        }
+            if (Input.GetKey(KeyCode.LeftArrow))
+            {
+                transform.Translate(Vector3.left * Time.deltaTime * _speed);
+            }
 
-        if (Input.GetKeyDown(KeyCode.LeftShift))
-        {
-            _speed = 4f;
-        }
+            if (Input.GetKey(KeyCode.RightArrow))
+            {
+                transform.Translate(Vector3.right * Time.deltaTime * _speed);
+            }
 
-        if (Input.GetKeyUp(KeyCode.LeftShift))
-        {
-            _speed = 10f;
+            if (Input.GetKeyDown(KeyCode.LeftShift))
+            {
+                _speed = 4f;
+            }
+
+            if (Input.GetKeyUp(KeyCode.LeftShift))
+            {
+                _speed = 10f;
+            }
         }
     }
 

@@ -17,17 +17,18 @@ public class Boss_shotController : MonoBehaviour
 
     float _timer = 0;
     float _stopTimer = 2f;
+    float _secondTimer = 5f;
 
-    public bool _isFire = false;
+    Boss_Manager _bm;
 
     void Start()
     {
-
+        _bm = GameObject.Find("Mokou").GetComponent<Boss_Manager>();
     }
 
     void Update()
     {
-        if (_isFire == true)
+        if (_bm._fstpattern == true)
         {
             Vector3 dir = new Vector3(0, 0, _rotSpeed * Time.deltaTime);
 
@@ -83,6 +84,12 @@ public class Boss_shotController : MonoBehaviour
                     }
                 }
             }
+
+            if (_timer >= _secondTimer)
+            {
+                _timer = 0f;
+            }
+
         }
     }
 }

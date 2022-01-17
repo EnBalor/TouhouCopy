@@ -9,25 +9,28 @@ public class Boss_Left_ichijo : MonoBehaviour
 
     public float _rotSpeed = 5f;
 
-    public bool _isFire = false;
+    Boss_Manager _bm;
 
     void Start()
     {
-        if (_isFire == true)
-        {
-            for (int i = 0; i < 360; i += 90)
-            {
-                GameObject leftShotPoint = Instantiate(_leftShotPoint);
+        _bm = GameObject.Find("Mokou").GetComponent<Boss_Manager>();
 
-                leftShotPoint.transform.position = this.transform.position;
-                leftShotPoint.transform.rotation = Quaternion.Euler(0, 0, i);
-                leftShotPoint.transform.SetParent(this.transform);
-            }
+        for (int i = 0; i < 360; i += 90)
+        {
+            GameObject leftShotPoint = Instantiate(_leftShotPoint);
+        
+            leftShotPoint.transform.position = this.transform.position;
+            leftShotPoint.transform.rotation = Quaternion.Euler(0, 0, i);
+            leftShotPoint.transform.SetParent(this.transform);
         }
+        
     }
 
     void Update()
     {
-        this.transform.Rotate(0, 0, _rotSpeed * Time.deltaTime);
+        if (_bm._ichijopattern == true)
+        {
+            this.transform.Rotate(0, 0, _rotSpeed * Time.deltaTime);
+        }
     }
 }

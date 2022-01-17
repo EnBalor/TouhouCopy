@@ -9,10 +9,18 @@ public class Guide_Manager : MonoBehaviour
 
     SpriteRenderer _renderer;
 
+    GameManager _gm;
+
     public float _speed = 5f;
+
+    public bool _dead = false;
+
+    float _counterTime = 0f;
+    float _deadTime = 0.5f;
 
     void Start()
     {
+        _gm = GameObject.Find("GameManager").GetComponent<GameManager>();
         _renderer = this.GetComponent<SpriteRenderer>();
         _renderer.enabled = false;
     }
@@ -32,14 +40,37 @@ public class Guide_Manager : MonoBehaviour
         {
             _renderer.enabled = false;
         }
+
+        if(_dead == true)
+        {
+            _counterTime += Time.deltaTime;
+            if (_counterTime <= _deadTime)
+            {
+                if (Input.GetKey(KeyCode.X))
+                {
+                    _gm._bomb -= 2;
+                    _counterTime = 0f;
+                    _dead = false;
+                }
+            }
+
+            else if (_counterTime >= _deadTime)
+            {
+                Destroy(_player);
+                _gm._life -= 1;
+                _counterTime = 0f;
+                _dead = false;
+            }
+            Debug.Log("playerhit");
+            Debug.Log(_gm._life);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Enemy_bullet")
         {
-            Debug.Log("dest");
-            Destroy(_player);
+            _dead = true;
         }
     }
 }
