@@ -92,6 +92,7 @@
     <Compile Include="Assets\Script\GameManager.cs" />
     <Compile Include="Assets\Script\Player\Guide_Manager.cs" />
     <Compile Include="Assets\Script\Player\PlayerManager.cs" />
+    <Compile Include="Assets\Script\Player\Reimu_bomb.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/unityHub/2019.4.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

@@ -48,7 +48,10 @@ public class Guide_Manager : MonoBehaviour
             {
                 if (Input.GetKey(KeyCode.X))
                 {
-                    _gm._bomb -= 2;
+                    for (int i = 0; i < 2; i++)
+                    {
+                        _gm._bomb -= 1;
+                    }
                     _counterTime = 0f;
                     _dead = false;
                 }
