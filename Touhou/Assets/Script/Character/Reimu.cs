@@ -21,7 +21,8 @@ public class Reimu : MonoBehaviour
     float fire = 0f;
     float delay = 0.1f;
 
-    float _bombSpeed = 5f;
+    float _bombdly = 0f;
+    float _bombDelay = 5f;
 
     private void Start()
     {
@@ -74,6 +75,7 @@ public class Reimu : MonoBehaviour
             if (Input.GetKey(KeyCode.X))
             {
                 Bomb();
+                _gm._bomb -= 1;
             }
         }
     }
@@ -92,6 +94,8 @@ public class Reimu : MonoBehaviour
 
             bomb.transform.rotation = Quaternion.Euler(0, 0, i);
         }
+
+        StartCoroutine(BombToTarget(b1));
     }
 
     IEnumerator BombToTarget(List<Transform> b1)
@@ -104,6 +108,11 @@ public class Reimu : MonoBehaviour
 
             Vector3 dir = target.transform.position - b1[i].transform.position;
 
+            float _angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+
+            b1[i].rotation = Quaternion.Euler(0, 0, _angle);
         }
+
+        b1.Clear();
     }
 }
