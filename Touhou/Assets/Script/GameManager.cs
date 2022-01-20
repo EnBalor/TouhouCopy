@@ -5,6 +5,12 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     [SerializeField]
+    GameObject _player = null;
+
+    [SerializeField]
+    GameObject _spawn = null;
+
+    [SerializeField]
     GameObject _life1 = null;
 
     [SerializeField]
@@ -34,6 +40,8 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     GameObject _bomb5 = null;
 
+    Guide_Manager _gm;
+
     public bool _isEnemy = false;
 
     public bool _isStart = false;
@@ -42,14 +50,32 @@ public class GameManager : MonoBehaviour
 
     public int _bomb = 5;
 
+    float _spawnTime = 1f;
+
     void Start()
     {
-        
+        GameObject player = Instantiate(_player);
+        _gm = GameObject.Find("Guide").GetComponent<Guide_Manager>();
     }
 
     void Update()
     {
         lifebombcount();
+        //guide manager 스크립트 dead값이 트루일 때 실행
+        if (_gm._dead == true)
+        {
+            _spawnTime -= Time.deltaTime;
+            if (_spawnTime <= 0f)
+            {
+                if (_life != 0)
+                {
+                    GameObject player = Instantiate(_player);
+                    player.transform.position = _spawn.transform.position;
+                    _gm._dead = false;
+                    _spawnTime = 1f;
+                }
+            }
+        }
     }
 
     void lifebombcount()

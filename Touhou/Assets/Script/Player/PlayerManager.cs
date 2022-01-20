@@ -27,7 +27,7 @@ public class PlayerManager : MonoBehaviour
 
     void Update()
     {
-        if (_gm._dead == false)
+        if (_gm._hit == false)
         {
             ChangeState();
 

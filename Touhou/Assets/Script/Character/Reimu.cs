@@ -32,6 +32,7 @@ public class Reimu : MonoBehaviour
     void Update()
     {
         fire += Time.deltaTime;
+        _bombdly += Time.deltaTime;
 
         if(fire > delay)
         {
@@ -76,6 +77,7 @@ public class Reimu : MonoBehaviour
             {
                 Bomb();
                 _gm._bomb -= 1;
+                _bombdly = 0f;
             }
         }
     }

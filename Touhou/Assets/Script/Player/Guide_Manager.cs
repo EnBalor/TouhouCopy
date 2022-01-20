@@ -13,6 +13,7 @@ public class Guide_Manager : MonoBehaviour
 
     public float _speed = 5f;
 
+    public bool _hit = false;
     public bool _dead = false;
 
     float _counterTime = 0f;
@@ -41,7 +42,7 @@ public class Guide_Manager : MonoBehaviour
             _renderer.enabled = false;
         }
 
-        if(_dead == true)
+        if(_hit == true)
         {
             _counterTime += Time.deltaTime;
             if (_counterTime <= _deadTime)
@@ -53,7 +54,7 @@ public class Guide_Manager : MonoBehaviour
                         _gm._bomb -= 1;
                     }
                     _counterTime = 0f;
-                    _dead = false;
+                    _hit = false;
                 }
             }
 
@@ -62,10 +63,10 @@ public class Guide_Manager : MonoBehaviour
                 Destroy(_player);
                 _gm._life -= 1;
                 _counterTime = 0f;
-                _dead = false;
+                _hit = false;
+                _dead = true;
             }
             Debug.Log("playerhit");
-            Debug.Log(_gm._life);
         }
     }
 
@@ -73,7 +74,7 @@ public class Guide_Manager : MonoBehaviour
     {
         if (collision.tag == "Enemy_bullet")
         {
-            _dead = true;
+            _hit = true;
         }
     }
 }

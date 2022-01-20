@@ -12,9 +12,6 @@ public class Reimu_bomb : MonoBehaviour
 
     float _speed = 5.0f;
 
-    [Range(2f, 10f)]
-    float _addscale = 3f;
-
     void Start()
     {
         Destroy(_bomb, 5f);
