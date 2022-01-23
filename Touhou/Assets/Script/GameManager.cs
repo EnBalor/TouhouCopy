@@ -8,9 +8,6 @@ public class GameManager : MonoBehaviour
     GameObject _player = null;
 
     [SerializeField]
-    GameObject _spawn = null;
-
-    [SerializeField]
     GameObject _life1 = null;
 
     [SerializeField]
@@ -40,41 +37,51 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     GameObject _bomb5 = null;
 
-    Guide_Manager _gm;
+    [SerializeField]
+    GameObject _retry = null;
+
+    [SerializeField]
+    GameObject _boss = null;
 
     public bool _isEnemy = false;
 
     public bool _isStart = false;
 
-    public int _life = 5;
+    public int _life;
 
-    public int _bomb = 5;
+    public int _bomb;
 
-    float _spawnTime = 1f;
+    float _spawn = 2f;
 
     void Start()
     {
-        GameObject player = Instantiate(_player);
-        _gm = GameObject.Find("Guide").GetComponent<Guide_Manager>();
+        _boss.SetActive(false);
+        _player.SetActive(true);
+        _retry.SetActive(false);
+        _isStart = true;
+        _life = 5;
+        _bomb = 5;
     }
 
     void Update()
     {
-        lifebombcount();
-        //guide manager 스크립트 dead값이 트루일 때 실행
-        if (_gm._dead == true)
+        _spawn -= Time.deltaTime;
+        if(_spawn < 0)
         {
-            _spawnTime -= Time.deltaTime;
-            if (_spawnTime <= 0f)
-            {
-                if (_life != 0)
-                {
-                    GameObject player = Instantiate(_player);
-                    player.transform.position = _spawn.transform.position;
-                    _gm._dead = false;
-                    _spawnTime = 1f;
-                }
-            }
+            _boss.SetActive(true);
+        }
+
+        lifebombcount();
+
+        if(_life < 0)
+        {
+            _retry.SetActive(true);
+            Time.timeScale = 0f;
+        }
+
+        else
+        {
+            Time.timeScale = 1f;
         }
     }
 

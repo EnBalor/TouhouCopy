@@ -7,9 +7,11 @@ TagManager:
   - Enemy
   - Left
   - Right
-  - Endbullet
   - Enemy_bullet
   - Player_bullet
+  - EndPoint
+  - Endbullet
+  - Destroy
   layers:
   - Default
   - TransparentFX

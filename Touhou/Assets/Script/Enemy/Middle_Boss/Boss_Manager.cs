@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class Boss_Manager : MonoBehaviour
 {
-    GameObject _boss = null;
-
     [SerializeField]
     GameObject _pattern1 = null;
 
@@ -31,7 +29,6 @@ public class Boss_Manager : MonoBehaviour
     float _first = 2f;
 
     Boss_shotController _firstPattern;
-    Boss_redshot _firstRed;
 
     Boss_Left_ichijo _secondPattern;
     Boss_Right_ichijo _secondPattern2;
@@ -42,7 +39,6 @@ public class Boss_Manager : MonoBehaviour
     void Start()
     {
         _firstPattern = GetComponent<Boss_shotController>();
-        _firstRed = GetComponent<Boss_redshot>();
 
         _secondPattern = GetComponent<Boss_Left_ichijo>();
         _secondPattern2 = GetComponent<Boss_Right_ichijo>();
@@ -82,9 +78,14 @@ public class Boss_Manager : MonoBehaviour
             _rightichijo.SetActive(true);
         }
 
-        if(Input.GetKeyDown(KeyCode.End))
+        if(Input.GetKeyDown(KeyCode.Alpha1))
         {
             _firstHP -= 1000;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            _ichijoHP -= 1000;
         }
     }
 

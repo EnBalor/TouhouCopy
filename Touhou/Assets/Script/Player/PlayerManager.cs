@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class PlayerManager : MonoBehaviour
 {
+    [SerializeField]
+    GameObject _spawn = null;
+
     public float _speed = 10f;
 
     Animator _animator;
@@ -11,6 +14,8 @@ public class PlayerManager : MonoBehaviour
     string _state = "State";
 
     Guide_Manager _gm;
+
+    float _spawnTime = 0.5f;
 
     enum PlayerState
     {
@@ -59,6 +64,19 @@ public class PlayerManager : MonoBehaviour
             if (Input.GetKeyUp(KeyCode.LeftShift))
             {
                 _speed = 10f;
+            }
+        }
+
+        if(_gm._dead == true)
+        {
+            _spawnTime -= Time.deltaTime;
+            if(_spawnTime <= 0f)
+            {
+                this.gameObject.SetActive(false);
+                this.transform.position = _spawn.transform.position;
+                _spawnTime = 0.5f;
+                _gm._dead = false;
+                this.gameObject.SetActive(true);
             }
         }
     }

@@ -23,6 +23,9 @@ public class Reimu : MonoBehaviour
 
     float _bombdly = 0f;
     float _bombDelay = 5f;
+    float _cleartime = 3f;
+
+    public bool _clearBullet = false;
 
     private void Start()
     {
@@ -78,6 +81,7 @@ public class Reimu : MonoBehaviour
                 Bomb();
                 _gm._bomb -= 1;
                 _bombdly = 0f;
+                _clearBullet = true;
             }
         }
     }

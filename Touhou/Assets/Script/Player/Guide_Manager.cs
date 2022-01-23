@@ -7,9 +7,19 @@ public class Guide_Manager : MonoBehaviour
     [SerializeField]
     GameObject _player = null;
 
+    [SerializeField]
+    GameObject _spawnPoint = null;
+
+    [SerializeField]
+    GameObject _counter = null;
+
+    CircleCollider2D _coll;
+
     SpriteRenderer _renderer;
 
     GameManager _gm;
+
+    Reimu _rm;
 
     public float _speed = 5f;
 
@@ -19,10 +29,14 @@ public class Guide_Manager : MonoBehaviour
     float _counterTime = 0f;
     float _deadTime = 0.5f;
 
+    float _spawnTime = 1f;
+
     void Start()
     {
         _gm = GameObject.Find("GameManager").GetComponent<GameManager>();
         _renderer = this.GetComponent<SpriteRenderer>();
+        _coll = this.transform.gameObject.GetComponent<CircleCollider2D>();
+        _rm = this.GetComponent<Reimu>();
         _renderer.enabled = false;
     }
 
@@ -45,6 +59,8 @@ public class Guide_Manager : MonoBehaviour
         if(_hit == true)
         {
             _counterTime += Time.deltaTime;
+            
+            _coll.isTrigger = false;
             if (_counterTime <= _deadTime)
             {
                 if (Input.GetKey(KeyCode.X))
@@ -60,13 +76,18 @@ public class Guide_Manager : MonoBehaviour
 
             else if (_counterTime >= _deadTime)
             {
-                Destroy(_player);
                 _gm._life -= 1;
                 _counterTime = 0f;
                 _hit = false;
                 _dead = true;
+                _coll.isTrigger = true;
             }
             Debug.Log("playerhit");
+        }
+
+        if(Input.GetKey(KeyCode.Alpha0))
+        {
+            this.gameObject.SetActive(false);
         }
     }
 
@@ -75,6 +96,9 @@ public class Guide_Manager : MonoBehaviour
         if (collision.tag == "Enemy_bullet")
         {
             _hit = true;
+
+            GameObject counter = Instantiate(_counter);
+            counter.transform.position = this.transform.position;
         }
     }
 }
