@@ -79,6 +79,11 @@ public class PlayerManager : MonoBehaviour
                 this.gameObject.SetActive(true);
             }
         }
+
+        if (this.transform.position.x <= -8f) this.transform.position = new Vector3(-8f, this.transform.position.y, this.transform.position.z);
+        if (this.transform.position.x >= 2.7f) this.transform.position = new Vector3(2.7f, this.transform.position.y, this.transform.position.z);
+        if (this.transform.position.y <= -4.5f) this.transform.position = new Vector3(this.transform.position.x, -4.5f, this.transform.position.z);
+        if (this.transform.position.y >= 4.5f) this.transform.position = new Vector3(this.transform.position.x, 4.5f, this.transform.position.z);
     }
 
     void ChangeState()
