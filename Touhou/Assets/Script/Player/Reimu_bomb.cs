@@ -29,7 +29,6 @@ public class Reimu_bomb : MonoBehaviour
             Destroy(_bomb);
             GameObject explode = Instantiate(_explode);
             explode.transform.position = _bomb.transform.position;
-            Debug.Log("chaser");
             Destroy(explode, 4f);
         }
     }

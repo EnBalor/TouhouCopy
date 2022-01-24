@@ -21,9 +21,17 @@ public class Chaser : MonoBehaviour
     {
         GameObject target = GameObject.FindGameObjectWithTag("Enemy");
 
-        Vector3 dir = target.transform.position - this.transform.position;
+        if (target != null)
+        {
+            Vector3 dir = target.transform.position - this.transform.position;
 
-        transform.Translate(dir * _speed * Time.deltaTime);
+            transform.Translate(dir * _speed * Time.deltaTime);
+        }
+
+        else
+        {
+            transform.Translate(Vector3.up * _speed * Time.deltaTime);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

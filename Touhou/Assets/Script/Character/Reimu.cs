@@ -24,6 +24,7 @@ public class Reimu : MonoBehaviour
     float _bombdly = 0f;
     float _bombDelay = 5f;
     float _cleartime = 3f;
+    float _bombtime = 1f;
 
     public bool _clearBullet = false;
 
@@ -99,9 +100,16 @@ public class Reimu : MonoBehaviour
             b1.Add(bomb.transform);
 
             bomb.transform.rotation = Quaternion.Euler(0, 0, i);
+
+            if (_bombtime <= 0)
+            {
+                Destroy(bomb);
+            }
         }
 
+        _bombtime -= Time.deltaTime;
         StartCoroutine(BombToTarget(b1));
+        
     }
 
     IEnumerator BombToTarget(List<Transform> b1)
@@ -112,11 +120,14 @@ public class Reimu : MonoBehaviour
         {
             GameObject target = GameObject.FindGameObjectWithTag("Enemy");
 
-            Vector3 dir = target.transform.position - b1[i].transform.position;
+            if (target != null)
+            {
+                Vector3 dir = target.transform.position - b1[i].transform.position;
 
-            float _angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+                float _angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
 
-            b1[i].rotation = Quaternion.Euler(0, 0, _angle);
+                b1[i].rotation = Quaternion.Euler(0, 0, _angle);
+            }
         }
 
         b1.Clear();

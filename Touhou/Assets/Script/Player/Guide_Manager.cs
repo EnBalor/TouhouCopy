@@ -29,8 +29,6 @@ public class Guide_Manager : MonoBehaviour
     float _counterTime = 0f;
     float _deadTime = 0.5f;
 
-    float _spawnTime = 1f;
-
     void Start()
     {
         _gm = GameObject.Find("GameManager").GetComponent<GameManager>();
