@@ -77,7 +77,7 @@ public class BulletController : MonoBehaviour
                 //패턴 실행 시간 델타타임으로 감소
                 WaveTime -= Time.deltaTime;
 
-                //시간 되면 0번 패턴 false
+                //시간 되면 0번 패턴 false, 1번이 true일 때
                 if (WaveTime < 0.0f && WaveCheck[1])
                     WaveCheck[0] = false;
             }
@@ -95,7 +95,7 @@ public class BulletController : MonoBehaviour
                     //도착지리스트 = 오브젝트매니저 참조
                     GetFlowerPointList = (Vector3[])ObjectManager.GetInstance.GetFlowerPointList.Clone();
 
-                    //
+                    //Dictionary 자료 구조에 vector3 값을 선언한 문구인듯
                     Dictionary<float, Vector3> Compare = new Dictionary<float, Vector3>();
 
                     //반복문으로 가장 가까운 거리 찾아가기?
@@ -103,18 +103,24 @@ public class BulletController : MonoBehaviour
                     {
                         float fDis = (float)Vector3.Distance(GetFlowerPointList[i], transform.position);
 
+                        //Dictionary 자료구조형의 key(fdis)가 false일 경우 fDis에 총알 도착지 리스트를 추가한다.
                         if (Compare.ContainsKey(fDis) == false)
                             Compare.Add(fDis, GetFlowerPointList[i]);
+                        //true일때는 그대로 진행
                         else
                             continue;
                     }
 
+                    //결과 값에 자료형의 키값을 정렬
                     var Result = Compare.OrderBy(x => x.Key);
 
+                    //위치에 결과값의 첫번째 값을 대입
                     Vector3 vPos = Result.First().Value;
 
+                    //도착지 vector 값 전달
                     Direction = (vPos - transform.position).normalized;
 
+                    //다시 0번으로 돌림
                     WaveCheck[0] = true;
                     WaveCheck[1] = false;
                 }
