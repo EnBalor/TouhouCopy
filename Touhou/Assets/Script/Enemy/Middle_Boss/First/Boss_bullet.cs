@@ -15,7 +15,7 @@ public class Boss_bullet : MonoBehaviour
 
     void Update()
     {
-        transform.Translate(Vector3.down * _speed * Time.deltaTime);
+        transform.Translate(Vector3.down * _speed * Time.deltaTime, Space.Self);
 
         if(_rm._clearBullet == true)
         {

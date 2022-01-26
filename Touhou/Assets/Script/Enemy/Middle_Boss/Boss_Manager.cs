@@ -24,6 +24,7 @@ public class Boss_Manager : MonoBehaviour
 
     public int _firstHP = 1000;
     public int _ichijoHP = 1000;
+    public int _thirdHP = 1000;
 
     float _delay = 0f;
     float _first = 2f;
@@ -35,6 +36,7 @@ public class Boss_Manager : MonoBehaviour
 
     public bool _fstpattern;
     public bool _ichijopattern;
+    public bool _thidpattern;
 
     void Start()
     {
@@ -50,6 +52,7 @@ public class Boss_Manager : MonoBehaviour
 
         _leftichijo.SetActive(false);
         _rightichijo.SetActive(false);
+
     }
 
     void Update()
@@ -78,6 +81,15 @@ public class Boss_Manager : MonoBehaviour
             _rightichijo.SetActive(true);
         }
 
+        if(_ichijoHP <= 0)
+        {
+            _ichijopattern = false;
+            _leftichijo.SetActive(false);
+            _rightichijo.SetActive(false);
+
+            _thidpattern = true;
+        }
+
         if(Input.GetKeyDown(KeyCode.Alpha1))
         {
             _firstHP -= 1000;
@@ -85,7 +97,15 @@ public class Boss_Manager : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Alpha2))
         {
+            _firstHP -= 1000;
             _ichijoHP -= 1000;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            _firstHP -= 1000;
+            _ichijoHP -= 1000;
+            _thirdHP -= 1000;
         }
     }
 
@@ -102,6 +122,12 @@ public class Boss_Manager : MonoBehaviour
             {
                 _ichijoHP -= 1;
                 Debug.Log("ichijoHit");
+            }
+
+            else if (_ichijoHP <= 0)
+            {
+                _thirdHP -= 1;
+                Debug.Log("thirdHit");
             }
         }
     }

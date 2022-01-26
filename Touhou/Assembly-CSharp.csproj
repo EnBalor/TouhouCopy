@@ -82,6 +82,9 @@
     <Compile Include="Assets\Script\Enemy\Middle_Boss\Ichijo\Ichijo_bullet.cs" />
     <Compile Include="Assets\Script\Enemy\Middle_Boss\Ichijo\Left_Ichijo.cs" />
     <Compile Include="Assets\Script\Enemy\Middle_Boss\Ichijo\Right_Ichijo.cs" />
+    <Compile Include="Assets\Script\Enemy\Middle_Boss\Third.cs" />
+    <Compile Include="Assets\Script\Enemy\Middle_Boss\Third_fire.cs" />
+    <Compile Include="Assets\Script\Enemy\Middle_Boss\Third_knife.cs" />
     <Compile Include="Assets\Script\GameManager.cs" />
     <Compile Include="Assets\Script\GameOver.cs" />
     <Compile Include="Assets\Script\Player\Counter.cs" />
