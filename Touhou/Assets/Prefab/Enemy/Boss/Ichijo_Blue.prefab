@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5480804025126481529}
   - component: {fileID: 73729802081651980}
   - component: {fileID: -845981808766796528}
+  - component: {fileID: 2378542633529019248}
   m_Layer: 0
   m_Name: Ichijo_Blue
   m_TagString: Enemy_bullet
@@ -134,3 +135,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &2378542633529019248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5480804025126481534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51bf660bc6e50a549bb257e3e159b0eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _bullet: {fileID: 5480804025126481534}
+  _bluedest: {fileID: 967781060225071088, guid: 66ef289b7391eda4ab255821f771b3e8,
+    type: 3}

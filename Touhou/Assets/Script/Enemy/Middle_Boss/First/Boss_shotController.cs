@@ -89,7 +89,6 @@ public class Boss_shotController : MonoBehaviour
             {
                 _timer = 0f;
             }
-
         }
     }
 }

@@ -18,7 +18,7 @@ public class Bullet_clear : MonoBehaviour
     {
         if (collision.tag == "Enemy_bullet")
         {
-            //Destroy(_bullet);
+            Destroy(collision);
         }
     }
 }

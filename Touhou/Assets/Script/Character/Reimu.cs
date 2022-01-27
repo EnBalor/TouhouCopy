@@ -21,10 +21,8 @@ public class Reimu : MonoBehaviour
     float fire = 0f;
     float delay = 0.1f;
 
-    float _bombdly = 0f;
-    float _bombDelay = 5f;
     float _cleartime = 3f;
-    float _bombtime = 1f;
+    float _bombtime = 0.8f;
 
     public bool _clearBullet = false;
 
@@ -36,7 +34,6 @@ public class Reimu : MonoBehaviour
     void Update()
     {
         fire += Time.deltaTime;
-        _bombdly += Time.deltaTime;
 
         if(fire > delay)
         {
@@ -75,14 +72,26 @@ public class Reimu : MonoBehaviour
                 chaser.transform.rotation = Quaternion.Euler(0, 0, i);
             }
         }
-        if (_gm._bomb > 0)
+
+        if (_gm._bomb > 0 && _bombtime >= 0.8f)
         {
             if (Input.GetKey(KeyCode.X))
             {
                 Bomb();
                 _gm._bomb -= 1;
-                _bombdly = 0f;
                 _clearBullet = true;
+            }
+        }
+
+        if (_clearBullet == true)
+        {
+            _bombtime -= Time.deltaTime;
+
+            Debug.Log(_bombtime);
+            if(_bombtime <= 0)
+            {
+                _clearBullet = false;
+                _bombtime = 0.8f;
             }
         }
     }

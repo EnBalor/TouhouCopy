@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7461677306825044677}
   - component: {fileID: 7461677306825044678}
   - component: {fileID: 7461677306825044676}
+  - component: {fileID: 5736691561423771893}
   m_Layer: 0
   m_Name: Ichijo_Red
   m_TagString: Enemy_bullet
@@ -95,3 +96,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8804d2f650e5c9f40bc198b47ff3ec4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5736691561423771893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7461677306825044679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37340beae6258b04e9830d78518bedbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _bullet: {fileID: 7461677306825044679}
+  _reddest: {fileID: 965440840706664888, guid: 6475614b64f3c8c46befbbb7f920cb93, type: 3}

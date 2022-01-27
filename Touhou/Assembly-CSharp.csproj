@@ -74,8 +74,6 @@
     <Compile Include="Assets\Script\Enemy\Middle_Boss\BulletShower\MyGizmo.cs" />
     <Compile Include="Assets\Script\Enemy\Middle_Boss\BulletShower\ObjectManager.cs" />
     <Compile Include="Assets\Script\Enemy\Middle_Boss\First\Boss_bullet.cs" />
-    <Compile Include="Assets\Script\Enemy\Middle_Boss\First\Boss_createred.cs" />
-    <Compile Include="Assets\Script\Enemy\Middle_Boss\First\Boss_shot.cs" />
     <Compile Include="Assets\Script\Enemy\Middle_Boss\First\Boss_shotController.cs" />
     <Compile Include="Assets\Script\Enemy\Middle_Boss\Ichijo\Boss_Left_ichijo.cs" />
     <Compile Include="Assets\Script\Enemy\Middle_Boss\Ichijo\Boss_Right_ichijo.cs" />
@@ -85,6 +83,7 @@
     <Compile Include="Assets\Script\Enemy\Middle_Boss\Third.cs" />
     <Compile Include="Assets\Script\Enemy\Middle_Boss\Third_fire.cs" />
     <Compile Include="Assets\Script\Enemy\Middle_Boss\Third_knife.cs" />
+    <Compile Include="Assets\Script\Enemy\Middle_Boss\Third_knifesoht.cs" />
     <Compile Include="Assets\Script\GameManager.cs" />
     <Compile Include="Assets\Script\GameOver.cs" />
     <Compile Include="Assets\Script\Player\Counter.cs" />
@@ -92,7 +91,9 @@
     <Compile Include="Assets\Script\Player\PlayerManager.cs" />
     <Compile Include="Assets\Script\Player\Reimu_bomb.cs" />
     <Compile Include="Assets\Script\Title.cs" />
-    <Compile Include="Assets\Script\bulletdest.cs" />
+    <Compile Include="Assets\Script\bulletdestblue.cs" />
+    <Compile Include="Assets\Script\bulletdestred.cs" />
+    <Compile Include="Assets\Script\tedt.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/unityHub/2019.4.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
