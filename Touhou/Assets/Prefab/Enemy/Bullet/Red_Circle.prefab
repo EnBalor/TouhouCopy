@@ -10,7 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 906812109856411698}
   - component: {fileID: 906812109856411699}
-  - component: {fileID: 906812109856411853}
+  - component: {fileID: 3295661934654546977}
+  - component: {fileID: 3390289694000453104}
   m_Layer: 0
   m_Name: Red_Circle
   m_TagString: Enemy_bullet
@@ -83,7 +84,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &906812109856411853
+--- !u!114 &3295661934654546977
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -92,7 +93,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 906812109856411696}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5efd733bce720843b02290e039f0e06, type: 3}
+  m_Script: {fileID: 11500000, guid: a525a06ef7f77ee46b1adec03c76d001, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 5
+  _bullet: {fileID: 906812109856411696}
+--- !u!114 &3390289694000453104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906812109856411696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37340beae6258b04e9830d78518bedbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _bullet: {fileID: 906812109856411696}
+  _reddest: {fileID: 965440840706664888, guid: 6475614b64f3c8c46befbbb7f920cb93, type: 3}
+  _scoreitem: {fileID: 8364105368244155669, guid: c6951d5078657dc419b1ce70d9a57c73,
+    type: 3}

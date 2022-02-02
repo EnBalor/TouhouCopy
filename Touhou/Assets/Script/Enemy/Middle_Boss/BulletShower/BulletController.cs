@@ -14,7 +14,7 @@ public class BulletController : MonoBehaviour
 
     private float DelayTime = 0.0f;
 
-    private float WaveTime = 5.0f;
+    private float WaveTime = 1.0f;
 
     private bool Pattern_01;
     
@@ -27,7 +27,7 @@ public class BulletController : MonoBehaviour
         ParentPosition = new Vector3(0.0f, 0.0f, 0.0f);
 
         //흠 속도...
-        Speed = 0.8f;
+        Speed = 3f;
 
         // **************************************************
         // *  총알이 랜덤한 방향으로 나갈수 있도록 방향을 구함.

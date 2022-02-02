@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8357663110538163554}
   - component: {fileID: 8357663110538163553}
-  - component: {fileID: 8357663110538163552}
+  - component: {fileID: 7826876492623235108}
   m_Layer: 0
   m_Name: Counter
   m_TagString: Untagged
@@ -83,7 +83,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!111 &8357663110538163552
+--- !u!111 &7826876492623235108
 Animation:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -92,9 +92,9 @@ Animation:
   m_GameObject: {fileID: 8357663110538163559}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 0}
+  m_Animation: {fileID: 7400000, guid: bffe309d56ab9e84e98aaf1a7a6d859f, type: 2}
   m_Animations:
-  - {fileID: 7400000, guid: 44622192aaa1bff4db9a05fc1ee56541, type: 2}
+  - {fileID: 7400000, guid: bffe309d56ab9e84e98aaf1a7a6d859f, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0

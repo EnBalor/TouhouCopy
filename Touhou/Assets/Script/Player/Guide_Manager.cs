@@ -5,12 +5,6 @@ using UnityEngine;
 public class Guide_Manager : MonoBehaviour
 {
     [SerializeField]
-    GameObject _player = null;
-
-    [SerializeField]
-    GameObject _spawnPoint = null;
-
-    [SerializeField]
     GameObject _counter = null;
 
     CircleCollider2D _coll;
@@ -21,19 +15,33 @@ public class Guide_Manager : MonoBehaviour
 
     Reimu _rm;
 
+    Bullet_clear _bc;
+
+    ScoreManager _sc;
+
+    public AudioClip _item;
+    public AudioClip _deadsound;
+
+    AudioSource audioSource;
+
     public float _speed = 5f;
 
     public bool _hit = false;
     public bool _dead = false;
+    public bool _counterbomb = false;
 
     float _counterTime = 0f;
     float _deadTime = 0.5f;
+    float _untouch = 0.5f;
 
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
+        _rm = GameObject.Find("Player").GetComponent<Reimu>();
         _gm = GameObject.Find("GameManager").GetComponent<GameManager>();
         _renderer = this.GetComponent<SpriteRenderer>();
         _coll = this.transform.gameObject.GetComponent<CircleCollider2D>();
+        _bc = GameObject.Find("BulletClear").GetComponent<Bullet_clear>();
         _rm = this.GetComponent<Reimu>();
         _renderer.enabled = false;
     }
@@ -57,17 +65,17 @@ public class Guide_Manager : MonoBehaviour
         if(_hit == true)
         {
             _counterTime += Time.deltaTime;
-            
+            _untouch -= Time.deltaTime;
+
             _coll.isTrigger = false;
             if (_counterTime <= _deadTime)
             {
-                if (Input.GetKey(KeyCode.X))
+                if (Input.GetKeyDown(KeyCode.X))
                 {
-                    for (int i = 0; i < 2; i++)
-                    {
-                        _gm._bomb -= 1;
-                    }
+                    GameObject.Find("Player").GetComponent<Reimu>().Bomb();
                     _counterTime = 0f;
+                    _counterbomb = true;
+                    _gm._bomb -= 2;
                     _hit = false;
                 }
             }
@@ -78,14 +86,35 @@ public class Guide_Manager : MonoBehaviour
                 _counterTime = 0f;
                 _hit = false;
                 _dead = true;
-                _coll.isTrigger = true;
+                _bc._bulletclear = true;
             }
+
+            if(_counterTime <= 0f)
+            {
+                _counterbomb = false;
+            }
+
             Debug.Log("playerhit");
         }
 
-        if(Input.GetKey(KeyCode.Alpha0))
+        if(_hit == false)
+        {
+            _coll.isTrigger = true;
+        }
+
+        if (_untouch <= 0)
+        {
+            _coll.isTrigger = true;
+        }
+
+        if (Input.GetKey(KeyCode.Alpha0))
         {
             this.gameObject.SetActive(false);
+        }
+
+        if(_counterbomb == true)
+        {
+            _counterbomb = false;
         }
     }
 
@@ -93,10 +122,22 @@ public class Guide_Manager : MonoBehaviour
     {
         if (collision.tag == "Enemy_bullet")
         {
+            audioSource.clip = _deadsound;
+            audioSource.Play();
+
             _hit = true;
 
             GameObject counter = Instantiate(_counter);
             counter.transform.position = this.transform.position;
+            Destroy(counter, 0.5f);
+        }
+
+        if (collision.tag == "Score")
+        {
+            audioSource.clip = _item;
+            audioSource.Play();
+
+            ScoreManager.Instance.addscore(100);
         }
     }
 }

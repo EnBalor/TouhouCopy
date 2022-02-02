@@ -43,6 +43,22 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     GameObject _boss = null;
 
+    [SerializeField]
+    GameObject _retryyes = null;
+
+    [SerializeField]
+    GameObject _retryno = null;
+
+    [SerializeField]
+    GameObject _fade = null;
+
+    public AudioClip bgm;
+
+    AudioSource audioSource;
+
+    Boss_Manager _bm;
+
+
     public bool _isEnemy = false;
 
     public bool _isStart = false;
@@ -55,6 +71,11 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        _bm = GameObject.Find("Mokou").GetComponent<Boss_Manager>();
+        audioSource = GetComponent<AudioSource>();
+        _fade.SetActive(true);
+        _retryyes.SetActive(false);
+        _retryno.SetActive(false);
         _boss.SetActive(false);
         _player.SetActive(true);
         _retry.SetActive(false);
@@ -76,6 +97,8 @@ public class GameManager : MonoBehaviour
         if(_life < 0)
         {
             _retry.SetActive(true);
+            _retryyes.SetActive(true);
+            _retryno.SetActive(true);
             Time.timeScale = 0f;
         }
 

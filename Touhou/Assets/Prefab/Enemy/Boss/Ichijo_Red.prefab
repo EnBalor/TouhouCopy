@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 7461677306825044678}
   - component: {fileID: 7461677306825044676}
   - component: {fileID: 5736691561423771893}
+  - component: {fileID: 6229237649400590604}
+  - component: {fileID: -4696760308019050461}
   m_Layer: 0
   m_Name: Ichijo_Red
   m_TagString: Enemy_bullet
@@ -110,3 +112,42 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _bullet: {fileID: 7461677306825044679}
   _reddest: {fileID: 965440840706664888, guid: 6475614b64f3c8c46befbbb7f920cb93, type: 3}
+  _scoreitem: {fileID: 8364105368244155669, guid: b9801919377c0a24f897f285ebb385b3,
+    type: 3}
+--- !u!50 &6229237649400590604
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7461677306825044679}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!70 &-4696760308019050461
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7461677306825044679}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.08, y: 0.14}
+  m_Direction: 0

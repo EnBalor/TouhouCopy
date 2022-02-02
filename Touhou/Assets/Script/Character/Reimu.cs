@@ -18,22 +18,38 @@ public class Reimu : MonoBehaviour
     [SerializeField]
     GameObject _bomb = null;
 
+    Bullet_clear _bc;
+    Guide_Manager _Gmanager;
+
+    public AudioClip _shot;
+    public AudioClip _bombsound;
+
+    AudioSource audioSource;
+
     float fire = 0f;
     float delay = 0.1f;
 
-    float _cleartime = 3f;
-    float _bombtime = 0.8f;
+    float _bombtime = 0.2f;
+    float _bombdelay = 0.5f;
 
     public bool _clearBullet = false;
+    public bool _isbomb = false;
+
+    private void Awake()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
 
     private void Start()
     {
         _gm = GameObject.Find("GameManager").GetComponent<GameManager>();
+        _bc = GameObject.Find("BulletClear").GetComponent<Bullet_clear>();
     }
 
     void Update()
     {
         fire += Time.deltaTime;
+        _bombdelay += Time.deltaTime;
 
         if(fire > delay)
         {
@@ -41,66 +57,79 @@ public class Reimu : MonoBehaviour
             fire = 0;
         }
     }
-
+    
     void Reimu_shot()
     {
-
-        if (Input.GetKey(KeyCode.Z))
+        if (_isbomb == false)
         {
-            for (int i = -10; i < 20; i += 10)
+            if (Input.GetKey(KeyCode.Z))
             {
-                GameObject bullet = Instantiate(_bullet);
+                audioSource.clip = _shot;
+                audioSource.Play();
 
-                Destroy(bullet, 1f);
-
-                bullet.transform.position = _player.transform.position;
-                bullet.transform.rotation = Quaternion.Euler(0, 0, i);
-            }
-
-            for (int i = -50; i <= 50; i += 25)
-            {
-                GameObject chaser = Instantiate(_chaser);
-
-                Destroy(chaser, 1f);
-
-                if(i == 0)
+                for (int i = -10; i < 20; i += 10)
                 {
-                    i = 25;
+                    GameObject bullet = Instantiate(_bullet);
+
+                    Destroy(bullet, 1f);
+
+                    bullet.transform.position = _player.transform.position;
+                    bullet.transform.rotation = Quaternion.Euler(0, 0, i);
                 }
 
-                chaser.transform.position = _player.transform.position;
-                chaser.transform.rotation = Quaternion.Euler(0, 0, i);
+                for (int i = -50; i <= 50; i += 25)
+                {
+                    GameObject chaser = Instantiate(_chaser);
+
+                    Destroy(chaser, 1f);
+
+                    if (i == 0)
+                    {
+                        i = 25;
+                    }
+
+                    chaser.transform.position = _player.transform.position;
+                    chaser.transform.rotation = Quaternion.Euler(0, 0, i);
+                }
             }
         }
 
-        if (_gm._bomb > 0 && _bombtime >= 0.8f)
+        if (_gm._bomb > 0 && _bombdelay >= 0.4f)
         {
             if (Input.GetKey(KeyCode.X))
             {
+                audioSource.clip = _bombsound;
+                audioSource.Play();
                 Bomb();
-                _gm._bomb -= 1;
-                _clearBullet = true;
+                _isbomb = true;
+                _bc._bulletclear = true;
+                _bombdelay = 0f;
             }
         }
 
-        if (_clearBullet == true)
+        if (_bc._bulletclear == true)
         {
             _bombtime -= Time.deltaTime;
-
-            Debug.Log(_bombtime);
-            if(_bombtime <= 0)
+            if (_bombtime <= 0f)
             {
-                _clearBullet = false;
-                _bombtime = 0.8f;
+                _bc._bulletclear = false;
+                _bombtime = 0.2f;
             }
+        }
+
+        if(_isbomb == true)
+        {
+            _gm._bomb -= 1;
+            _isbomb = false;
         }
     }
 
-    void Bomb()
+    public void Bomb()
     {
         List<Transform> b1 = new List<Transform>();
 
-        for(int i = 0; i < 360; i += 45)
+
+        for (int i = 0; i < 360; i += 45)
         {
             GameObject bomb = Instantiate(_bomb);
 
@@ -112,13 +141,12 @@ public class Reimu : MonoBehaviour
 
             if (_bombtime <= 0)
             {
-                Destroy(bomb);
+                Destroy(bomb, 5f);
             }
         }
 
         _bombtime -= Time.deltaTime;
         StartCoroutine(BombToTarget(b1));
-        
     }
 
     IEnumerator BombToTarget(List<Transform> b1)
@@ -131,7 +159,7 @@ public class Reimu : MonoBehaviour
 
             if (target != null)
             {
-                Vector3 dir = target.transform.position - b1[i].transform.position;
+                Vector3 dir = target.transform.position - b1[i].position;
 
                 float _angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
 

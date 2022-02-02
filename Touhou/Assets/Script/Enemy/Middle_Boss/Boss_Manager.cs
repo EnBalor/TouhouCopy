@@ -22,24 +22,42 @@ public class Boss_Manager : MonoBehaviour
     [SerializeField]
     GameObject _rightichijo = null;
 
+    [SerializeField]
+    GameObject _third = null;
+
+    Animator animator;
+    string animationState = "AnimationState";
+
+    Bullet_clear _bc;
+
     public int _firstHP = 1000;
     public int _ichijoHP = 1000;
     public int _thirdHP = 1000;
 
     float _delay = 0f;
-    float _first = 2f;
+    float _first = 3f;
 
     Boss_shotController _firstPattern;
-
     Boss_Left_ichijo _secondPattern;
     Boss_Right_ichijo _secondPattern2;
+    ScoreManager _sc;
 
+    public bool _spawn;
     public bool _fstpattern;
     public bool _ichijopattern;
     public bool _thidpattern;
 
+    enum States
+    {
+        idle = 0,
+        spawn = 1,
+        fire = 2
+    }
+
     void Start()
     {
+        _bc = GameObject.Find("BulletClear").GetComponent<Bullet_clear>();
+
         _firstPattern = GetComponent<Boss_shotController>();
 
         _secondPattern = GetComponent<Boss_Left_ichijo>();
@@ -53,6 +71,7 @@ public class Boss_Manager : MonoBehaviour
         _leftichijo.SetActive(false);
         _rightichijo.SetActive(false);
 
+        _third.SetActive(false);
     }
 
     void Update()
@@ -76,6 +95,7 @@ public class Boss_Manager : MonoBehaviour
             _pattern3.SetActive(false);
             _pattern4.SetActive(false);
 
+            _bc._bulletclear = false;
             _ichijopattern = true;
             _leftichijo.SetActive(true);
             _rightichijo.SetActive(true);
@@ -88,6 +108,20 @@ public class Boss_Manager : MonoBehaviour
             _rightichijo.SetActive(false);
 
             _thidpattern = true;
+            _third.SetActive(true);
+        }
+
+        if(_thirdHP <= 0)
+        {
+            _firstHP = 1000;
+            _ichijoHP = 1000;
+            _thirdHP = 1000;
+
+            _fstpattern = true;
+            _pattern1.SetActive(true);
+            _pattern2.SetActive(true);
+            _pattern3.SetActive(true);
+            _pattern4.SetActive(true);
         }
 
         if(Input.GetKeyDown(KeyCode.Alpha1))
@@ -129,6 +163,38 @@ public class Boss_Manager : MonoBehaviour
                 _thirdHP -= 1;
                 Debug.Log("thirdHit");
             }
+
+            ScoreManager.Instance.addscore(10);
+        }
+
+        if(collision.tag == "Bomb")
+        {
+            if (_firstHP >= 0)
+            {
+                _firstHP -= 50;
+            }
+            else if (_firstHP <= 0)
+            {
+                _ichijoHP -= 50;
+            }
+
+            else if (_ichijoHP <= 0)
+            {
+                _thirdHP -= 50;
+            }
+        }
+    }
+
+    public void State()
+    {
+        if(_firstPattern == true)
+        {
+            animator.SetInteger(animationState, (int)States.fire);
+        }
+
+        else
+        {
+            animator.SetInteger(animationState, (int)States.idle);
         }
     }
 }

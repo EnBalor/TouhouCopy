@@ -12,6 +12,8 @@ TagManager:
   - EndPoint
   - Endbullet
   - Destroy
+  - Score
+  - Bomb
   layers:
   - Default
   - TransparentFX

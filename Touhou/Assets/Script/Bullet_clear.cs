@@ -4,21 +4,15 @@ using UnityEngine;
 
 public class Bullet_clear : MonoBehaviour
 {
+    public bool _bulletclear;
+
     void Start()
     {
-        
+        _bulletclear = false;
     }
 
     void Update()
     {
-        
-    }
-
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-        if (collision.tag == "Enemy_bullet")
-        {
-            Destroy(collision);
-        }
+        Debug.Log(_bulletclear);
     }
 }
