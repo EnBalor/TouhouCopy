@@ -9,8 +9,8 @@ public class Boss_shotController : MonoBehaviour
     [SerializeField]
     GameObject _bullet = null;
 
-    float _fire = 0.05f;
-    float _delay = 0.05f;
+    float _fire = 0.1f;
+    float _delay = 0.1f;
 
     float _rot = 0f;
     float _rotateTime = 0.3f;

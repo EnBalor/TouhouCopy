@@ -38,6 +38,9 @@ TextureImporter:
   - first:
       213: 2335416860523467173
     second: PC Computer - Touhou Eiyashou Imperishable Night - Characters (1)_12
+  - first:
+      213: 5357996827394113327
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Characters (1)_13
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -403,6 +406,27 @@ TextureImporter:
       bones: []
       spriteID: 5a195f5d241196020800000000000000
       internalID: 2335416860523467173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Characters (1)_13
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 293
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ffe740abd6b5a40800000000000000
+      internalID: 5357996827394113327
       vertices: []
       indices: 
       edges: []

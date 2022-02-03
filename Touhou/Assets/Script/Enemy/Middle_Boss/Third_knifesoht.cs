@@ -25,6 +25,9 @@ public class Third_knifesoht : MonoBehaviour
             knife.transform.rotation = this.transform.rotation;
 
             _knifedelay = 0.2f;
+
+            Destroy(knife, 5f);
         }
+
     }
 }

@@ -7,6 +7,9 @@ public class Bullet : MonoBehaviour
     [SerializeField]
     GameObject _bullet = null;
 
+    [SerializeField]
+    GameObject _effect = null;
+
     Boss_Manager _bossManager;
 
     public float _speed = 10.0f;
@@ -28,6 +31,8 @@ public class Bullet : MonoBehaviour
     {
         if (collision.tag == "Enemy")
         {
+            GameObject effect = Instantiate(_effect);
+            effect.transform.position = this.transform.position;
             Destroy(_bullet);
             Debug.Log("hit");
         }

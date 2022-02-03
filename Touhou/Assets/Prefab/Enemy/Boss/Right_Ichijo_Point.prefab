@@ -97,4 +97,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _bullet: {fileID: 7461677306825044679, guid: a2f9fb6fdcf3fb94a94b8381c57dc03b, type: 3}
   _speed: 10
-  _rotSpeed: 100
+  _rotSpeed: 0.1

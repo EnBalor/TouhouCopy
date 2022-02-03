@@ -117,6 +117,7 @@ public class Boss_Manager : MonoBehaviour
             _ichijoHP = 1000;
             _thirdHP = 1000;
 
+            _thidpattern = false;
             _fstpattern = true;
             _pattern1.SetActive(true);
             _pattern2.SetActive(true);
@@ -124,7 +125,12 @@ public class Boss_Manager : MonoBehaviour
             _pattern4.SetActive(true);
         }
 
-        if(Input.GetKeyDown(KeyCode.Alpha1))
+        if(_firstHP == 1000)
+        {
+            _third.SetActive(false);
+        }
+        
+        if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             _firstHP -= 1000;
         }
@@ -158,7 +164,7 @@ public class Boss_Manager : MonoBehaviour
                 Debug.Log("ichijoHit");
             }
 
-            else if (_ichijoHP <= 0)
+            if (_ichijoHP <= 0)
             {
                 _thirdHP -= 1;
                 Debug.Log("thirdHit");

@@ -96,7 +96,7 @@ public class Reimu : MonoBehaviour
 
         if (_gm._bomb > 0 && _bombdelay >= 0.4f)
         {
-            if (Input.GetKey(KeyCode.X))
+            if (Input.GetKeyDown(KeyCode.X))
             {
                 audioSource.clip = _bombsound;
                 audioSource.Play();

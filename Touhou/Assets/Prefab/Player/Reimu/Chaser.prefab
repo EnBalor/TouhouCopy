@@ -145,4 +145,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _bullet: {fileID: 2881012573552457273}
+  _effect: {fileID: 6073032401209375884, guid: 7eab074bc58340946886f57dadc361a6, type: 3}
   _speed: 5

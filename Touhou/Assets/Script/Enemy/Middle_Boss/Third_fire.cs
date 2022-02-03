@@ -7,7 +7,7 @@ public class Third_fire : MonoBehaviour
     [SerializeField]
     GameObject _bullet = null;
     
-    float _delay = 0.2f;
+    float _delay = 0.01f;
 
     void Start()
     {

@@ -7,6 +7,9 @@ public class Chaser : MonoBehaviour
     [SerializeField]
     GameObject _bullet = null;
 
+    [SerializeField]
+    GameObject _effect = null;
+
     Boss_Manager _bossManager;
 
     public float _speed = 1.0f;
@@ -38,6 +41,8 @@ public class Chaser : MonoBehaviour
     {
         if (collision.tag == "Enemy")
         {
+            GameObject effect = Instantiate(_effect);
+            effect.transform.position = this.transform.position;
             Destroy(_bullet);
             Debug.Log("chaser");
         }

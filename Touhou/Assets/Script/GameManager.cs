@@ -135,6 +135,15 @@ public class GameManager : MonoBehaviour
             _life1.SetActive(false);
         }
 
+        if(_bomb == 5)
+        {
+            _bomb5.SetActive(true);
+            _bomb4.SetActive(true);
+            _bomb3.SetActive(true);
+            _bomb2.SetActive(true);
+            _bomb1.SetActive(true);
+        }
+
         if (_bomb == 4)
         {
             _bomb5.SetActive(false);
@@ -148,18 +157,24 @@ public class GameManager : MonoBehaviour
 
         if (_bomb == 2)
         {
+            _bomb5.SetActive(false);
             _bomb4.SetActive(false);
             _bomb3.SetActive(false);
         }
 
         if (_bomb == 1)
         {
+            _bomb5.SetActive(false);
+            _bomb4.SetActive(false);
             _bomb3.SetActive(false);
             _bomb2.SetActive(false);
         }
 
         if (_bomb == 0)
         {
+            _bomb5.SetActive(false);
+            _bomb4.SetActive(false);
+            _bomb3.SetActive(false);
             _bomb2.SetActive(false);
             _bomb1.SetActive(false);
         }

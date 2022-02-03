@@ -68,7 +68,7 @@ public class Guide_Manager : MonoBehaviour
             _untouch -= Time.deltaTime;
 
             _coll.isTrigger = false;
-            if (_counterTime <= _deadTime)
+            if (_counterTime <= _deadTime && _gm._bomb > 0)
             {
                 if (Input.GetKeyDown(KeyCode.X))
                 {
@@ -77,6 +77,7 @@ public class Guide_Manager : MonoBehaviour
                     _counterbomb = true;
                     _gm._bomb -= 2;
                     _hit = false;
+                    _bc._bulletclear = true;
                 }
             }
 
@@ -115,6 +116,11 @@ public class Guide_Manager : MonoBehaviour
         if(_counterbomb == true)
         {
             _counterbomb = false;
+        }
+
+        if(_dead == true)
+        {
+            _gm._bomb = 5;
         }
     }
 

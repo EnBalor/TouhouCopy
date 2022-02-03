@@ -7,8 +7,8 @@ public class Right_Ichijo : MonoBehaviour
     [SerializeField]
     GameObject _bullet = null;
 
-    float _fire = 0.08f;
-    float _delay = 0.08f;
+    float _fire = 0.05f;
+    float _delay = 0.05f;
 
     public float _speed = 10f;
 

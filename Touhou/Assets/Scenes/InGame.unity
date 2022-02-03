@@ -7508,7 +7508,7 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.39, y: 0.7}
+  m_Size: {x: 0.23, y: 0.43}
   m_Direction: 0
 --- !u!50 &5486466368926188664
 Rigidbody2D:
@@ -7782,7 +7782,7 @@ GameObject:
   - component: {fileID: 5486466370428844777}
   m_Layer: 0
   m_Name: Boss_enemy
-  m_TagString: Enemy
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7884,7 +7884,7 @@ GameObject:
   - component: {fileID: 3065579786533977339}
   m_Layer: 0
   m_Name: Boss
-  m_TagString: Enemy
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
